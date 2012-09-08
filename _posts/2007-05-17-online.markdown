@@ -1,0 +1,14 @@
+---
+comments: true
+date: 2007-05-17 12:16:21
+layout: post
+slug: online
+title: Online
+wordpress_id: 4
+categories:
+- Mill Grist
+---
+
+I've had the idea for this website for a couple of months now, and been making it offline for a couple of weeks. It's not completely finished but today's the day it's ready to go online. So here it is.
+
+Some links don't work yet or they send you to funny looking places. But I can write blog entries and you can enter memories into the colour memory database -- which I'm quite excited about. The database just started off as a something to practice my programming skills on, but now that it's up there, live on the world wide web thing, I can't wait to see what everyone will make of it.

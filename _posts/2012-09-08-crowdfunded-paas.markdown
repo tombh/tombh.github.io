@@ -1,0 +1,25 @@
+---
+date: 2012-09-08
+layout: post
+slug: crowd-funded-paas
+title: Crowd-funded PaaS
+categories:
+- Computing
+---
+
+What if there was a service like Heroku or AppFog, etc that covered its costs through crowdfunding? It would only run code from a specified public repository, probably Github. That way you would know that any money you donated would only be used for code that you could scrutinise yourself. Just like Kickstarter, each project would have its own promotional page with stats of its current computing costs and its current donation rates. You could see at a glance whether a project needed more money to keep it going.
+
+The idea is really a response to App.net, the recently beta-launched subscription-based
+microblogging service. They're charging $50 per year to finance the service with the hope of  avoiding the pitfalls that many are beginning to complain about in the increasingly commercially-driven advertising-centric Twitter. I think App.net is an exciting response and it's great to see evolution. However, at heart, I'm a die-hard, liberal, open source advocate. Apps like Kickstarter and Indiegogo have been huge successes, so why not apply a similar approach to Cloud Computing?
+
+I've been looking into the emerging area of open source cloud software, namely [Cloud Foundry](http://www.cloudfoundry.org), which is essentially a collection of tools that allow you to create and manage your own Platform as a Service (Paas), à la Herkou. It has some bonafide credentials in being used by AppFog to power its platform, so it's production level code. It's infrasturcture agnostic so you could happily run it on AWS. It has a command line tool, much like heroku's `heroku' and AppFog's `af'. It supports services such as MongoDB, MySQL, Redis and RabbitMQ out of the box. So it's a nice bit of kit for something that's free.
+
+One thing that this crowd-funded platform is going to need is Cloud Storage, like S3, but the problem is it couldn't use Amazon's, for the same reason that it can't use any other external services. Using an external service would mean taking some of the donated money and using it against a separate AWS account, that AWS would have to be programmatically monitored to make sure that it was keeping within its usage limits. Basically AWS doesn't lend itself to being whitelabeled, therefore branding it as your own service and selling it on to your own customers. It would be impractical for every client of this crowd-funded Paas to have their own AWS account that was managed internally. And the alternative of releasing funds to the customer would go against the premise of ensuring that all raised funds would be used for computing costs; what's to stop those released funds from being used for buying chocolate?
+
+Fortunately Cloud Foundry has its own scalable Cloud Storage service with an API and guess what, it's fully compatible with AWS's S3 API. In fact all of Cloud Foundry's API are AWS compatible. Of course, Cloud Foundry's offerings aren't going to be as robust and developed as AWS, but it's something.
+
+In order to provide a free tier, as do Heroku and AppFog, donors could opt to have, say, 1% of their donation go into a central pot from which free tier users could get apps up and running. And of course the computing costs for this service itself would be crowd-funded in exactly the same way as all its other users. All the other costs incurred by a project, like subscriptions to third-party APIs, SSL certificates and so on would have to be funded some other way. It's important that this platform clearly sticks to its function so that donors know that 100% of their money is going on the project they've chosen.
+
+So what if this platform was used to support a Twitter replacement? Let's just assume that it could provide the computing power required to handle millions of tweets per day, which is quite an assumption I know seeing as I suspect Heroku probably couldn't. We know from the likes of the Linux kernel and the many other outrageously successful open source projects that an army of coders could easily code, design and manage a Twitter-like service. All it would need is it's rather large computing costs covered. How much money exactly is that? And would the public contribute enough and sufficiently regularly? I don't know. App.net is asking for a minimum of $50 per year, which is of course based on a specific projected user base. Cost per person decrease the more users there are. A crowdfunded model wouldn't need everyone to donate the same amount, in fact some people, or more likely most people wouldn't donate anything. Whereas more affluent power users would contribute more.
+
+Twitter has become a fundamental aspect of the Web's infrastructure, much like roads are in the real world. Is it idealistic thinking that we, the citizens of the Internet, given the appropriate platform, could voluntarily fund the basic amenities that oil the day to day working of the Internet?

@@ -1,0 +1,402 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+	color: #836975;
+    background: url(images/bg_tile.jpg);
+    font-family: "Verdana", sans;
+	letter-spacing: 0.1em;
+}
+/* * { behavior: url(iepngfix.htc) }*/
+a {
+    text-decoration: none;
+	outline: none;
+}
+
+
+a:link {
+    color: #6140ab;
+    border-bottom: 1px dashed transparent;
+}
+
+a:visited {
+    color: #6140ab;
+    border-bottom: 1px dashed transparent;
+}
+
+a:hover {
+    color: #ef2073;
+    /*border-bottom: 1px dashed #c81114;*/
+}
+
+h1 {
+    font-size: 160%;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 140%;
+    font-weight: normal;
+}
+h2.ourPAGETITLE{
+	font-size: 220%;
+	text-align: center;
+}
+
+img {
+    padding: 3px;
+	margin: 5px 5px 5px 0;
+    border: 0px solid #dfd4e8;
+}
+.preview_link:hover {
+	border-bottom: 1px solid transparent;
+}
+.imagecol a:hover {
+	border-bottom: 1px solid transparent;
+}
+
+li {
+    list-style-image: url('images/li.png');
+}
+
+* html li {
+    list-style-image: url('images/li.gif');
+}
+
+select, input, textarea{
+color: #726975;
+font-family: "Verdana", sans;
+letter-spacing: 0.1em;
+font-size: 100%;
+}
+
+select:hover, input:hover, textarea:hover{
+	background-color: #dfd4e8;
+}
+
+select:focus, input:focus, textarea:focus{
+	background-color: #F3F8F8;
+}
+
+
+input{
+border: 1px dotted #c79ce8;
+background: white;
+padding: 3px;
+margin: 0px;
+}
+
+textarea{
+border: 1px dotted #c79ce8;
+font-size: 100%;
+background: white;
+/*margin: 5px;*/
+padding: 3px;
+}
+
+
+
+#container {
+    min-width: 1005px;
+    background: url('images/bottom_bit.jpg') center bottom no-repeat;
+    padding-bottom: 208px;
+    border: 0px solid red;
+}
+
+* html #container {
+    padding-bottom: 0px;
+}
+
+/*#top {
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+	background: url('images/top.jpg') no-repeat;
+	width: 965px;
+    height: 617px;
+}*/
+#top2 {
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+	background: url('images/top2.jpg') no-repeat;
+	width: 965px;
+    height: 617px;
+}
+
+#leftbits {
+    position: relative;
+    /*left: 50%;
+    margin-left: -360px;*/
+    left: 118px;
+	top: 184px;
+    width: 368px;
+    height: 70px;
+	/*border: 1px solid black;*/
+}
+
+#leftbits a {
+    /*border: 1px solid blue;*/
+    position: absolute;
+	display: block;
+	border-bottom: none;
+    z-index: 100;
+}
+
+#leftbits a:hover {
+    border-bottom: none;
+}
+
+#home_tab {
+    left: 12px;
+    top: 25px;
+    width: 110px;
+    height: 57px;
+}
+
+#home_tab:hover, #home_tab.current {
+    background: url(images/leftbits_on.jpg) -8px -7px no-repeat;
+}
+
+#about_tab {
+    left: 137px;
+    top: 25px;
+    width: 100px;
+    height: 56px;
+}
+
+#about_tab:hover, #about_tab.current {
+    background: url(images/leftbits_on.jpg) -133px -7px no-repeat;
+}
+
+#contact_tab {
+    left: 252px;
+    top: 32px;
+    width: 100px;
+    height: 53px;
+}
+
+#contact_tab:hover, #contact_tab.current {
+    background: url(images/leftbits_on.jpg) -248px -14px no-repeat;
+}
+
+#bag_words {
+    position: relative;
+    left: 50%;
+    margin-left: 201px;
+    top: 60px;
+    width: 180px;
+    height: 163px;
+    text-align: center;
+    padding: 5px 0px 10px 3px;
+    border: 0px solid red;
+}
+
+#bag_words span.pricedisplay{
+	display: block;
+	font-size: 190%;
+	white-space: normal;
+}
+
+#bag_words span.counts_text{
+	display: block;
+	margin-top: 15px;
+	font-size: 65%;
+}
+
+#checkout {
+    position: absolute;
+    left: 14px;
+    top: 84px;
+    width: 157px;
+    height: 60px;
+    border: 0px solid black;
+}
+
+#checkout:hover, #checkout.current {
+	background: url(images/checkout_on.jpg) -2px 4px no-repeat;
+}
+
+#repeater {
+    /*position: relative;
+     left: 50%;
+     margin-left: -594px;*/
+    background: url('images/repeater.jpg') center top repeat-y;
+    padding: 0;
+    margin-top: -2px;
+}
+
+* html #repeater {
+    border: 0px solid blue;
+}
+
+* html #ie_repeater {
+    height: 378px;
+    background: url('images/bottom_bit.jpg') center bottom no-repeat;
+}
+
+#content_outer {
+    position: relative;
+    left: 50%;
+    /*top: -320px;*/
+	margin: 0;
+    margin-left: -290px;
+    margin-top: -320px;
+    padding: 0px 20px 0px 20px;
+    width: 640px;
+    min-height: 350px;
+    font-size: 80%;
+    line-height: 150%;
+    border: 0px solid red;
+}
+
+*html #content_outer {
+    height:auto !important;
+  	height:700px;
+  	width: 600px;
+
+}
+
+.blog_page{
+	width: 400px;
+	float: left;
+}
+
+#rightbar{
+	float: right;
+	width: 150px;
+}
+
+#clothes_menu_outer {
+	position: relative;
+    left: 50%;
+	margin-left: -420px;
+    width: 120px;
+	float: left;
+	font-size: 125%;
+}
+
+*html #clothes_menu_outer {
+
+   top: -300px;
+
+}
+
+#menu_title{
+	margin: 30px 0 0 22px;
+	display: block;
+}
+
+.tilde {
+	margin: 10px 0px 10px 30px;
+	display: block;
+	width: 37px;
+	height: 39px;
+	background: url(images/flower1.png) no-repeat;
+}
+
+*html .tilde{
+	background: url(images/flower1.gif) no-repeat;
+}
+
+#clothes_menu {
+    width: 100%;
+    margin: 27px 0 0px 15px;
+	padding: 10px 0 10px 0;
+    /*border-bottom: 1px solid #c79ce8;*/
+	text-transform: lowercase;
+}
+
+#clothes_menu, #menu_title {
+	font-weight: normal;
+	font-style: italic;
+	font-family: "Georgia", serif;
+}
+
+
+#clothes_menu a {
+	font-size: 120%;
+	margin: 0;
+	padding: 7px;
+	display: block;
+	/*border: 1px solid blue;*/
+}
+
+*html #clothes_menu a {
+border: none;
+}
+
+#clothes_menu a:hover, #clothes_menu a.current{
+	/*border-bottom: 3px solid #896ec8;	*/
+	border-bottom: 1px solid transparent;
+	color: #ef2073;
+}
+
+
+.category_image {
+	display: block;
+	margin: auto;
+	border: 1px solid #dfd4e8;
+}
+
+.alignright{
+	float: right;
+	margin-left: 15px;
+}
+.alignleft{
+	float: left;
+	margin-right: 15px;
+}
+
+#wpsc_akst_form{
+	font-size: 60%;
+	width: 550px;
+	display: none;
+}
+
+.viewbuy{
+	float: right;
+}
+
+#tc{
+	padding: 30px 0px 0px 0px;
+	font-weight: bolder;
+}
+
+#scriptless{
+	float: right;
+	font-size: 75%;
+	color: red;
+}
+
+#stencil {
+    background: url('images/stencil.png') center 2px no-repeat;
+    height: 83px;
+    min-width: 1005px;
+    border: 0px solid red;
+}
+
+* html #stencil {
+    behavior: url('/iepngfix.htc');
+    background: url('images/stencil.gif') no-repeat;
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    margin-left: -565px;
+    margin-bottom: -167px
+}
+
+#footer {
+	position: absolute;
+	left: 50%;
+	margin-top: 130px;
+	margin-left: -270px;
+	font-size: 60%;
+}
+
+

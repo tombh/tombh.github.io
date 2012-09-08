@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Nicola Marie   &raquo; Products Page</title>
+
+<link rel="stylesheet" href="http://old.nicolamarie.com/wp-content/themes/sewnpink/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/wp-content/themes/sewnpink/cform.css" type="text/css" media="screen" />
+<link rel="pingback" href="http://old.nicolamarie.com/xmlrpc.php" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="http://www.nicolamarie.com/wp-content/themes/sewnpink/ie7.css" type="text/css" media="screen" />
+<![endif]-->
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://old.nicolamarie.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://old.nicolamarie.com/wp-includes/wlwmanifest.xml" /> 
+<script type='text/javascript' src='http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/js/jquery.js?ver=1.2.3'></script>
+<script type='text/javascript' src='http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/js/thickbox.js?ver=Instinct_e-commerce'></script>
+<script type='text/javascript' src='http://old.nicolamarie.com/wp-includes/js/prototype.js?ver=1.6'></script>
+<meta name="generator" content="WordPress 2.6.1" />
+
+  <style type="text/css" media="screen">
+  
+			/*div.default_product_display div.textcol{
+			margin-left: 160px !important;
+			_margin-left: 80px !important;
+		}
+			
+			
+		div.default_product_display  div.textcol div.imagecol{
+			position:absolute;
+			top:0px;
+			left: 0px;
+			margin-left: -160px !important;
+		}*/
+		
+	/*div.single_product_display div.textcol{
+		margin-left: 310px !important;
+		_margin-left: 155px !important;
+		min-height: 410px;
+		_height: 410px;
+	}
+		
+		
+	div.single_product_display  div.textcol div.imagecol{
+		position:absolute;
+		top:0px;
+		left: 0px;
+		margin-left: -310px !important;
+	}*/
+	
+  
+  
+        div#categorydisplay{
+    display: block;
+    }
+    
+    div#branddisplay{
+    display: none;
+    }
+  </style>
+  			<style type="text/css" media="screen">
+		div#sliding_cart{
+			display: block;
+			}
+		</style>
+	<link href='http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/thickbox.css' rel="stylesheet" type="text/css" />
+<script language='JavaScript' type='text/javascript'>
+jQuery.noConflict();
+/* base url */
+var base_url = "http://old.nicolamarie.com";
+var WPSC_URL = "http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart";
+
+/* LightBox Configuration start*/
+var fileLoadingImage = "http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/images/loading.gif";    
+var fileBottomNavCloseImage = "http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/images/closelabel.gif";
+var fileThickboxLoadingImage = "http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/images/loadingAnimation.gif";    
+var resizeSpeed = 9;  // controls the speed of the image resizing (1=slowest and 10=fastest)
+var borderSize = 10;  //if you adjust the padding in the CSS, you will need to update this variable
+jQuery(document).ready( function() {
+  });
+</script>
+<script src="http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/ajax.js" language='JavaScript' type="text/javascript"></script>
+<script src="http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/user.js" language='JavaScript' type="text/javascript">
+</script>
+
+
+
+    
+<link href='http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/themes/default/default.css' rel="stylesheet" type="text/css" />
+        
+<link href='http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/themes/compatibility.css' rel="stylesheet" type="text/css" />
+    <link rel='alternate' type='application/rss+xml' title='Nicola Marie Product List RSS' href='http://old.nicolamarie.com/index.php?rss=true&amp;action=product_list'/>
+  <script type="text/javascript" src="http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/share-this.php?wpsc_akst_action=js"></script>
+  <link rel="stylesheet" type="text/css" href="http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/share-this.php?wpsc_akst_action=css" />
+  
+
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="top2">
+
+			
+			<div id ="leftbits">
+				<a id="home_tab"  href="/"></a>
+				<a id="about_tab"  href="/about"></a>
+				<a id="contact_tab"  href="/contact"></a>
+			</div>
+
+			<div id="bag_words">
+
+				<div id='sideshoppingcart'><div id='shoppingcartcontents'>
+<span class="pricedisplay">
+£0.00
+</span>
+<span class="counts_text">
+<span class="cartcount">
+No
+</span>
+items in your bag
+</span></div></div>
+				<a id="checkout"  href="/products-page/checkout/"></a>
+			</div>
+
+
+
+		</div><!-- top ENDS -->
+			<div id="repeater">
+
+				<div id="clothes_menu_outer">
+
+					<!-- <span id="menu_title">Shop</span> -->
+
+					<div id="clothes_menu">
+						<span class="tilde"></span>
+
+						<a class="" href="/products-page/dresses">dresses</a>
+<a class="current" href="/products-page/skirts">skirts</a>
+<a class="" href="/products-page/festival">festival</a>
+<a class="" href="/products-page/tops">tops</a>
+<a class="" href="/products-page/one-offs">one-offs</a>
+
+						<span class="tilde"></span>
+					</div>
+				</div>
+
+				<div id="content_outer">
+
+	<div id="content" class="narrowcolumn">
+
+				<div class="post" id="post-3">
+					<h2 class="ourPAGETITLE">Skirts</h2>
+				
+			<div class="entry">
+				<div id='products_page_container' class="wrap wpsc_container">
+<div id='fancy_notification'>
+  <div id='loading_animation'>
+<img id="fancy_notificationimage" title="Loading" alt="Loading" src="http://old.nicolamarie.com/wp-content/plugins/wp-shopping-cart/images/indicator.gif" />Updating...
+  </div>
+  <div id='fancy_notification_content'>
+  </div>
+</div>
+<img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/category_images/skirtbanner.jpg' class='category_image' alt='' title='' /><p>Lovely skirts.</p><div class='productdisplay default_product_display product_view_8 skirts'>      <div class='textcol'>      <div class='imagecol'><a href='http://old.nicolamarie.com/products-page/skirts/beautiful-round-skirt/' rel='Beautiful_Round_Skirt'><img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/1.jpg' title='Beautiful Round Skirt' alt='Beautiful Round Skirt' id='product_image_8' class='product_image'/></a></div><form id='product_8' name='product_8' method='post' action='http://old.nicolamarie.com/products-page/?category=' onsubmit='submitform(this);return false;' ><input type='hidden' name='prodid' value='8' /><div class='producttext'><h2 class='prodtitles'><a href='http://old.nicolamarie.com/products-page/skirts/beautiful-round-skirt/'  class='wpsc_product_title' >Beautiful Round Skirt</a></h2><p class='wpsc_description'>Royal Blue Band, attached to 100% cotton sway skirt, perfect for the summer.</p><p class='wpsc_variation_forms'><label for='variation_select_8_1'>Size:</label> <select id='variation_select_8_1' name='variation[1]' onchange='change_variation(8, Array("1"), false)' ><option value='1'>8</option><option value='2'>10</option><option value='3'>12</option><option value='4'>14</option></select></p><p class='wpsc_extras_forms'></p><p class='wpsc_product_price'><span id='product_price_8'><span class='pricedisplay'>&#163;42.00</span></span><br /></p><input type='hidden' name='item' value='8' /><a class='viewbuy' href='http://old.nicolamarie.com/products-page/skirts/beautiful-round-skirt/' rel='Beautiful_Round_Skirt'>&raquo; View/Buy</a></div></form>      </div>
+ <div class='clear'></div>
+</div><div class='productdisplay default_product_display product_view_9 skirts'>      <div class='textcol'>      <div class='imagecol'><a href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-daisy-skirt/' rel='Vintage_A-line_Daisy_Skirt'><img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/3-2.jpg' title='Vintage A-line Daisy Skirt' alt='Vintage A-line Daisy Skirt' id='product_image_9' class='product_image'/></a></div><form id='product_9' name='product_9' method='post' action='http://old.nicolamarie.com/products-page/?category=' onsubmit='submitform(this);return false;' ><input type='hidden' name='prodid' value='9' /><div class='producttext'><h2 class='prodtitles'><a href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-daisy-skirt/'  class='wpsc_product_title' >Vintage A-line Daisy Skirt</a></h2><p class='wpsc_description'>Brilliant retro 70's vintage daisy print teamed with a chilled cut means minimum effort for max impact.  Go retro rock chic with leather jacket and heals.</p><p class='wpsc_variation_forms'><label for='variation_select_9_1'>Size:</label> <select id='variation_select_9_1' name='variation[1]' onchange='change_variation(9, Array("1"), false)' ><option value='2'>10</option></select></p><p class='wpsc_extras_forms'></p><p class='wpsc_product_price'><span id='product_price_9'><span class='pricedisplay'>&#163;42.00</span></span><br /></p><input type='hidden' name='item' value='9' /><a class='viewbuy' href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-daisy-skirt/' rel='Vintage_A-line_Daisy_Skirt'>&raquo; View/Buy</a></div></form>      </div>
+ <div class='clear'></div>
+</div><div class='productdisplay default_product_display product_view_31 skirts'>      <div class='textcol'>      <div class='imagecol'><a href='http://old.nicolamarie.com/products-page/skirts/simplicity-summer-classic-a-line-skirt/' rel='Simplicity_Summer_Classic_A-line_Skirt'><img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/5.jpg' title='Simplicity Summer Classic A-line Skirt' alt='Simplicity Summer Classic A-line Skirt' id='product_image_31' class='product_image'/></a></div><form id='product_31' name='product_31' method='post' action='http://old.nicolamarie.com/products-page/?category=' onsubmit='submitform(this);return false;' ><input type='hidden' name='prodid' value='31' /><div class='producttext'><h2 class='prodtitles'><a href='http://old.nicolamarie.com/products-page/skirts/simplicity-summer-classic-a-line-skirt/'  class='wpsc_product_title' >Simplicity Summer Classic A-line Skirt</a></h2><p class='wpsc_description'>Simplicity fabric once again, white with cutsie blue flowers.  100% Cotton</p><p class='wpsc_variation_forms'><label for='variation_select_31_1'>Size:</label> <select id='variation_select_31_1' name='variation[1]' onchange='change_variation(31, Array("1"), false)' ><option value='1'>8</option><option value='2'>10</option><option value='3'>12</option><option value='4'>14</option></select></p><p class='wpsc_extras_forms'></p><p class='wpsc_product_price'><span id='product_price_31'><span class='pricedisplay'>&#163;32.00</span></span><br /></p><input type='hidden' name='item' value='31' /><a class='viewbuy' href='http://old.nicolamarie.com/products-page/skirts/simplicity-summer-classic-a-line-skirt/' rel='Simplicity_Summer_Classic_A-line_Skirt'>&raquo; View/Buy</a></div></form>      </div>
+ <div class='clear'></div>
+</div><div class='productdisplay default_product_display product_view_15 skirts'>      <div class='textcol'>      <div class='imagecol'><a href='http://old.nicolamarie.com/products-page/skirts/satin-blend-hipster/' rel='Satin_Blend_Hipster'><img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/8.jpg' title='Satin Blend Hipster' alt='Satin Blend Hipster' id='product_image_15' class='product_image'/></a></div><form id='product_15' name='product_15' method='post' action='http://old.nicolamarie.com/products-page/?category=' onsubmit='submitform(this);return false;' ><input type='hidden' name='prodid' value='15' /><div class='producttext'><h2 class='prodtitles'><a href='http://old.nicolamarie.com/products-page/skirts/satin-blend-hipster/'  class='wpsc_product_title' >Satin Blend Hipster</a></h2><p class='wpsc_description'>Satin Blend, Hipster Round Chocolate and Honey Skirt, with Chocolate binding to give it that extra swing!</p><p class='wpsc_variation_forms'><label for='variation_select_15_1'>Size:</label> <select id='variation_select_15_1' name='variation[1]' onchange='change_variation(15, Array("1"), false)' ><option value='1'>8</option><option value='2'>10</option><option value='3'>12</option><option value='4'>14</option></select></p><p class='wpsc_extras_forms'></p><p class='wpsc_product_price'><span id='product_price_15'><span class='pricedisplay'>&#163;32.00</span></span><br /></p><input type='hidden' name='item' value='15' /><a class='viewbuy' href='http://old.nicolamarie.com/products-page/skirts/satin-blend-hipster/' rel='Satin_Blend_Hipster'>&raquo; View/Buy</a></div></form>      </div>
+ <div class='clear'></div>
+</div><div class='productdisplay default_product_display product_view_32 skirts'>      <div class='textcol'>      <div class='imagecol'><a href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-skirt---one-made/' rel='Vintage_A-line_Skirt_-_One_made'><img src='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/31.jpg' title='Vintage A-line Skirt - One made' alt='Vintage A-line Skirt - One made' id='product_image_32' class='product_image'/></a></div><form id='product_32' name='product_32' method='post' action='http://old.nicolamarie.com/products-page/?category=' onsubmit='submitform(this);return false;' ><input type='hidden' name='prodid' value='32' /><div class='producttext'><h2 class='prodtitles'><a href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-skirt---one-made/'  class='wpsc_product_title' >Vintage A-line Skirt - One made</a></h2><p class='wpsc_variation_forms'><label for='variation_select_32_1'>Size:</label> <select id='variation_select_32_1' name='variation[1]' onchange='change_variation(32, Array("1"), false)' ><option value='3'>12</option></select></p><p class='wpsc_extras_forms'></p><p class='wpsc_product_price'><span id='product_price_32'><span class='pricedisplay'>&#163;48.00</span></span><br /></p><input type='hidden' name='item' value='32' /><a class='viewbuy' href='http://old.nicolamarie.com/products-page/skirts/vintage-a-line-skirt---one-made/' rel='Vintage_A-line_Skirt_-_One_made'>&raquo; View/Buy</a></div></form>      </div>
+ <div class='clear'></div>
+</div></div>
+
+
+				
+			</div>
+		</div>
+			<div style="clear:both"></div>
+		</div>
+
+	
+			</div><!-- Content_outer ENDS -->
+
+
+
+				<div id="stencil"></div>
+				<div id="ie_repeater"></div>
+
+				<div id="footer">
+					Copyright Nicola Marie 2009 |
+					<a href="http://validator.w3.org/check?uri=http://old.nicolamarie.com/products-page/skirts/" target="_blank">Web Standards</a> |
+					<a href="/terms-and-conditions">Terms &amp; Conditions</a> |
+					<a href="/credits/">Credits</a>
+				</div>
+			</div><!-- repeater ENDS -->
+
+	</div><!-- container ENDS -->
+
+	  <!-- Share This BEGIN -->
+  <div id="wpsc_akst_form">
+    <a href="#" onclick="jQuery('#wpsc_akst_form').css('display','none'); return false;" class="wpsc_akst_close">Close</a>
+    <ul class="tabs">
+      <li id="wpsc_akst_tab1" class="selected" onclick="wpsc_akst_share_tab('1');">Social Web</li>
+      <li id="wpsc_akst_tab2" onclick="wpsc_akst_share_tab('2');">E-mail</li>
+    </ul>
+    <div class="clear"></div>
+    <div id="wpsc_akst_social">
+      <ul>
+       <li><a href="#" id="wpsc_akst_delicious">del.icio.us</a></li>
+       <li><a href="#" id="wpsc_akst_digg">Digg</a></li>
+       <li><a href="#" id="wpsc_akst_furl">Furl</a></li>
+       <li><a href="#" id="wpsc_akst_netscape">Netscape</a></li>
+       <li><a href="#" id="wpsc_akst_yahoo_myweb">Yahoo! My Web</a></li>
+       <li><a href="#" id="wpsc_akst_stumbleupon">StumbleUpon</a></li>
+       <li><a href="#" id="wpsc_akst_google_bmarks">Google Bookmarks</a></li>
+       <li><a href="#" id="wpsc_akst_technorati">Technorati</a></li>
+       <li><a href="#" id="wpsc_akst_blinklist">BlinkList</a></li>
+       <li><a href="#" id="wpsc_akst_newsvine">Newsvine</a></li>
+       <li><a href="#" id="wpsc_akst_magnolia">ma.gnolia</a></li>
+       <li><a href="#" id="wpsc_akst_reddit">reddit</a></li>
+       <li><a href="#" id="wpsc_akst_windows_live">Windows Live</a></li>
+       <li><a href="#" id="wpsc_akst_tailrank">Tailrank</a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div id="wpsc_akst_email">
+      <form action="http://old.nicolamarie.com/index.php" method="post">
+        <fieldset>
+          <legend>E-mail It</legend>
+          <ul>
+            <li>
+              <label>To Address:</label>
+              <input type="text" name="wpsc_akst_to" value="" class="wpsc_akst_text" />
+            </li>
+            <li>
+              <label>Your Name:</label>
+              <input type="text" name="wpsc_akst_name" value="" class="wpsc_akst_text" />
+            </li>
+            <li>
+              <label>Your Address:</label>
+              <input type="text" name="wpsc_akst_email" value="" class="wpsc_akst_text" />
+            </li>
+            <li>
+              <input type="submit" name="wpsc_akst_submit" value="Send It" />
+            </li>
+          </ul>
+          <input type="hidden" name="wpsc_akst_action" value="send_mail" />
+          <input type="hidden" name="wpsc_akst_post_id" id="wpsc_akst_post_id" value="" />
+                  </fieldset>
+      </form>
+    </div>
+  </div>
+  <!-- Share This END -->
+
+	<img src="/images/leftbits_on.jpg" alt="" style="display: none;" />
+	<img src="/images/checkout_on.jpg" alt="" style="display: none;" />
+
+</body>
+</html>
+
+
+
+
+
+

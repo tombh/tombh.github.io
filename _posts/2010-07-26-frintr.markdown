@@ -1,0 +1,17 @@
+---
+comments: true
+date: 2010-07-26 10:25:38
+layout: post
+slug: frintr
+title: Frintr
+wordpress_id: 170
+categories:
+- Computing
+- Mill Grist
+---
+
+A week ago today I launched [Frintr](http://www.frintr.com). It's a project, of my own inception, that I've been working on for 10 months. The basic gist is that you create a mosaic of your own profile picture from all the smaller profile pictures of your friends from Facebook, Twitter and Myspace, which you can then have printed and sent to you as a poster. So not only has the project been technically difficult in terms of web development, but it's also been a huge learning curve in terms of setting up my own business and cultivating an authentic brand. What's more, even though the site is now live, there is still plenty more work to be done.
+
+I've learnt so much, there must be a dozen or more blog posts I could write about my adventures; Facebook/Twitter/Mysapce Connect authentication, the Symfony framework, Nginx, Linux logging and statistics graphing, GIT versioning, user-testing, branding, business planning, Image Magick, print fulfilment, Service Level Agreements,  time management, global patenting, self-discipline, creativity and patience! I thought about writing about things as they happened but time had the better of me (well apart from the last couple of posts about the Myspace SDK and Nginx).
+
+So in some ways I feel like a new man, having been through the furnace of such an involved process. My skills have been stretched and my confidence increased, I've a different perspective on the depth of my resources and what they can be put to achieve. And I'm still hungry for more!

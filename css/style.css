@@ -1,0 +1,341 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: 'Fontin';
+	font-style: italic;
+	src: url('/fonts/fontin/Fontin-Italic.eot');
+	src: local('Fontin Italic'), local('Fontin-Italic'), url('/fonts/fontin/Fontin-Italic.woff') format('woff'), url('/fonts/fontin/Fontin-Italic.ttf') format('truetype'), url('/fonts/fontin/Fontin-Italic.svg#Fontin-Italic') format('svg');
+}
+
+@font-face {
+	font-family: 'Fontin';
+	src: url('/fonts/fontin/Fontin-Regular.eot');
+	src: local('Fontin Regular'), local('Fontin-Regular'), url('/fonts/fontin/Fontin-Regular.woff') format('woff'), url('/fonts/fontin/Fontin-Regular.ttf') format('truetype'), url('/fonts/fontin/Fontin-Regular.svg#Fontin-Regular') format('svg');
+}
+
+body{
+	text-align: center;
+	color: #57574D;
+	font-family: 'Fontin', 'Georgia', serif;
+	background-image: url('/images/noise.png');
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.wrapper {
+	width: 700px;
+	margin: auto;
+	margin-top: 2em;
+	padding: 0 60px;
+}
+
+h1, h2, h3, h4 {
+	line-height: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.3em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+h3 {
+	font-size: 1.1em;
+}
+
+
+p {
+	margin-bottom: 1em;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+blockquote {
+	margin: 2em 4em;
+	padding-left: 15px;
+	border-left: 7px solid #7D0F0F;
+	font-style: italic;
+	font-size: 115%;
+}
+
+code {
+	font-family: monospace;
+	font-size: 75%;
+
+}
+
+pre code {
+	display: block;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	border-left: 7px solid #7D0F0F;
+	padding-left: 1em;
+	overflow-x: scroll;
+}
+
+li {
+	margin-left: 2em;
+	list-style-type: circle;
+}
+
+a {
+	color: #7D0F0F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 0 0 25px #6B6B63;
+}
+
+
+.header_wrap{
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+.header{
+	text-align: left;
+	width: 13em;
+	float: left;
+	color: #57574D;
+}
+a.header:hover {
+	text-shadow: none;
+}
+a.header span {
+	font-size: 300%;
+}
+
+.heart_logo{
+	opacity: 0.75;
+	float: left;
+	margin-left: -57px;
+	margin-right: 11px;
+	margin-top: -5px;
+	position: relative;
+}
+
+a.header:hover .heart_logo {
+	opacity: 1;
+}
+
+.blog-description{
+	font-size: 77%;
+	color: #868F83;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	text-align: right;
+	margin-right: 5px;
+	line-height: 1.6em;
+}
+
+
+.menu{
+	float: right;
+	margin-top: -15px;
+}
+
+.menu ul{
+	overflow: hidden;
+	text-align: right;
+	margin: 1em 0;
+}
+
+.menu li{
+	padding: .25em 1em;
+	border-left: 1px solid #EDE6D3;
+	float: left;
+	height: 1.5em;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.menu li:first-child{
+	border-left: none;
+	margin-right: 0;
+}
+.menu li:last-child{
+	padding-right: 0;
+}
+
+.menu li:first-child a{
+	width: 1em;
+}
+
+.menu li a{
+	font-size: 120%;
+	font-weight: normal;
+}
+
+.menu li img {
+	margin-top: -5px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out; 
+	-o-transition: all .1s ease-in-out; 
+	-ms-transition: all .1s ease-in-out; 
+}
+.menu li img:hover { 
+	-webkit-transform: rotate(-18deg); 
+	-moz-transform: rotate(-18deg); 
+	-o-transform: rotate(-18deg);
+	-ms-transform: rotate(-18deg); 
+}
+
+body.blog .menu a.blog,
+body.about .menu a.about,
+body.showcase .menu a.showcase {
+	color: inherit;
+	text-shadow: 0 0 25px #6B6B63;
+}
+
+.content{
+	margin: auto;
+	text-align: justify;
+	clear: both;
+}
+
+.content img {
+	border-radius: 3px;
+	box-shadow: 0 0 25px #6B6B63;
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.about .content img,
+.showcase .content img {
+	width: 150px;
+}
+
+.post_date {
+	font-style: italic;
+	color: #868F83;
+	display: block;
+	text-align: right;
+}
+
+.entries {
+	width: 45%;
+	float: left;
+}
+.entries li,
+.twitter li,
+.archives li {
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 1em;
+}
+.excerpt,
+.twitter li {
+	font-size: 75%;
+}
+
+.twitter {
+	width: 45%;
+	float: right;
+}
+
+.twitter ul {
+	list-style-type: none;
+}
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 867px) {
+	
+	.wrapper {
+		width: 480px;
+		padding: 0 30px;
+	}
+	.header {
+		float: none;
+		display: block;
+	}
+	.menu {
+		clear: both;
+		float: none;
+		margin-top: 2em;
+		margin-left: 3em;
+	}
+	.menu ul {
+		margin: auto;
+	}
+	.header {
+		margin-left: 8em;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 550px) {
+	body {
+		font-size: 90%;
+	}
+	.wrapper {
+		width: 300px;
+		padding: 0 10px;
+	}
+	.menu {
+		margin-top: 4em;
+		margin-left: 0;
+	}
+	.header {
+		margin-left: 6em;
+	}
+	a.header span {
+		font-size: 270%;
+	}
+	.entries,
+	.twitter {
+		width: 100%;
+	}
+}

@@ -1,0 +1,28 @@
+---
+layout: default
+type: page
+---
+
+<div class="entries">
+	<h2>Latest Posts</h2>
+	<ul>
+	  {% for post in site.posts limit: 3 %}
+	 
+	  <li>
+	    <a href="{{ post.url }}">
+	      <h3>{{ post.title }}</h3>
+	    </a>
+	    <div class="excerpt">
+		<span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
+		    {{ post.content | strip_html | truncatewords: 25 }}
+	    </div>
+	  </li>
+	 
+	  {% endfor %}
+	</ul>
+</div>
+
+<div class="twitter">
+	<h2>Latest Tweets</h2>
+	<div>Loading&hellip;</div>
+</div>
