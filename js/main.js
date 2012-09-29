@@ -1,4 +1,4 @@
-var jsonTwitterFeed = "http://twitter.com/statuses/user_timeline/twombh.json?count=100&callback=?";
+var jsonTwitterFeed = "/tweets.json";
 
 $(document).ready(function() {
     var el = $(".twitter div");
@@ -7,8 +7,7 @@ $(document).ready(function() {
         $.ajax({
             url: jsonTwitterFeed,
             data: {},
-            dataType: "jsonp",
-            callbackParameter: "jsoncallback",
+            dataType: "json",
             timeout: 5000,
             success: function(data){
                 var str = '';
