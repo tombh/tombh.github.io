@@ -1,0 +1,18 @@
+---
+date: 2012-10-27
+layout: post
+slug: leaving-the-cinema-before-the-end
+title: Leaving The Cinema Before The End
+categories:
+- Musings
+---
+
+I visited [Alan Chapman](http://twitter.com/_alan_chapman) last weekend and one of the things we got talking about was the future of humanity. As we're all no doubt aware there is mounting evidence that humans are digging themselves deeper into the hole of environmental disaster. How is this story going to unfold? Is it really possible for our species to, in all its ingenuity, sabotage the home in which it grew up? What is the solution? Is it technical or political? Do our scientists simple need to invent a device that sucks out all the poison from the atmosphere and another that creates unlimited clean fuel from solar energy? Perhaps in ways analogous to Buckminster Fuller's [ephemeralization](http://en.wikipedia.org/wiki/Ephemeralization) - the process of being able to do more and more with less and less. Or do our politicians just need to whip or inspire us collectively into shape so that each and every one of us takes our own small part of the burden onto our shoulders? [Maybe Clay Shirky is right that the precedents set by the culture of open source software will influence an enlightened politics](http://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government.html).
+
+Even if we get over this problem, what if another similarly devastating potential catastrophe awaits us. For instance, it might be discovered that our means of increasingly pervasive space travel interferes with the delicate balance of fundamental processes in the solar system. Unless we reduce our interplanetary sojourns by 50% in the next century it will irrevocably transform the solar winds thus making our planet inhospitable to carbon-based life forms.
+
+The story of humanity could, as indeed we hope it will, continue for a very long time. By the time the sun's energy diminishes in 6 billion years Homo Sapiens will have evolved to a profoundly unrecognisable state. Given that we only live once and have such a relatively short time in existence I often find myself feeling quite sad that I won't be around to see how this great adventure will turn out. Of course, maybe it's just my age (31) and my remaining thirst for knowledge and new experiences, perhaps in later life I'll naturally find myself satiated. Or even if I could snatch an extra century on top of my expected lifespan, I would have time to learn and experience all the things that interest me?
+
+But where would it end? Even if I could bear witness to the conclusion of our fate there would still be stories I wouldn't know about; tales from the past, dramas on other planets in other galaxies and tourist destinations in the interstellar dusts. If I'm honest, ultimately I want to know and experience as much as God herself, in this one opportunity to experience life I don't want to be short changed. Would it really be so great to know everything though? What would there be to look forward to? If I already knew what everybody thought, who would I tell about my adventures? There is a story in Greek Mythology of a god that was jealous of humans' finite power, because how can a god experience this particular joy of overcoming limits?
+
+The reality is that having limited knowledge and power, not knowing how things turn out, is a particular delicacy that the universe has to offer, in fact it is a rare and precious opportunity. To set out, in the face of the unknown and the impossible and, through our own efforts overcome the odds stacked against us is an incomparable experience that omnipotence and omniscience cannot offer.
