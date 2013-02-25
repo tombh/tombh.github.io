@@ -1,0 +1,12 @@
+---
+date: 2012-11-20
+layout: post
+slug: tedx-talk
+title: TEDx Youth Talk
+---
+
+I had the great privilege of being invited to talk at [Bath's TEDx Youth event](http://www.tedxyouthbath.com/). If you would like to know more about the Breaded Cat images I use, read [Know Your Meme's article](http://knowyourmeme.com/memes/breading-cats) on the matter.
+
+<div class="embed-container">
+  <iframe src="http://www.youtube.com/embed/FmpX1jkLrSY" frameborder="0" allowfullscreen></iframe>
+</div>
