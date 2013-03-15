@@ -106,7 +106,12 @@ blockquote {
 	padding-left: 15px;
 	border-left: 7px solid #7D0F0F;
 	font-style: italic;
-	font-size: 115%;
+}
+
+sup {
+	position: relative;
+	top: -0.5em; 
+	font-size: 80%;
 }
 
 code {
