@@ -1,0 +1,18 @@
+---
+date: 2013-04-27
+layout: post
+slug: lying-in-the-rain
+title: Lying In The Rain
+categories:
+- Spiritual
+---
+
+It's the day after a week-long meditation retreat. I'm still trying to digest the experience &mdash; mostly, by slouching on the sofa catching up on what I missed from last week's episode of the Internet, which so far I've gathered is; [Drunken Dubstep Surprise ](http://www.youtube.com/watch?feature=player_embedded&v=sRFSmqcllQE) and [The Ultimate Filing System](http://www.youtube.com/watch?v=iimzzlxzCFE). I was too tired to go outside into the sun and go for a run so, like getting into a cold shower, I forced my running gear onto my body and kicked myself out of the flat. It was horrible for the first ten minutes, but then I found a little more energy than usual and ended up running fast and twice my normal distance. It was the first time in a long time that I was nearly sick when I finished. I collapsed to the ground with an awful but brief moment of retching, then I lay on my back and it started to heavily shower. It felt incredible. My body was glowing and the uninhibited intimacy with nature's perfectly timed, cooling downpour was like a bespoke gift from the gods.
+
+I didn't have any particular insight on this retreat, nor did I resolve, or seemingly even make any inroads on the live issues of my current circumstances. There weren't even any notable periods of deep stillness that I often tap into. I remarked in the closing group sharing that I felt the week was somewhat of a chore. Yet despite all this my gratitude and motivation for practice has been replenished and I would do it all again at the drop of a hat.
+
+Why do I value it so much if it failed to offer any respite from the toils of everyday life? For example, a lot of the time I would just be sitting there worrying about money, relationships, life direction, self-worth and so on. I wanted desperately to come to some flash of understanding, but none ever came. Sit after sit, all that was clear was the sober and nuanced reality of the pain of the these burdens and I had no choice but to just feel it. I had to leave these feelings be there, not knowing when they'd resolve, perhaps they'd even be around forever. Yet this is my life, this is who I am, they are the winds and rains that influence every moment of my existence. It is the heavy weather that I unconsciously avoid through shyness, laziness, self-righteousness, fatigue and bad habits. It is so incredibly difficult to even begin to open up to the vast, gnawing existential emptiness at the heart of my soul, but I ignore it at my peril.
+
+A week in silence, with zero responsibilities and a regular ten hours a day of calm and focused contemplation allows me to at least begin to approach the sheer enormity of being this fragile creature that wants nothing more than to not die alone. It hurts like fuck to really get soaked to the skin in this stuff and the constant vigilance to not instantly bolt and run for cover is frankly exhausting. Figuratively, I lay in a downpour for seven days, felt what it's like without the shelter of my vices, knew the cold taps of hundreds of droplets of unmet desires and without a fight let my warm and dry comforts become drenched.
+
+Of course I'm back home and dry now, invigorated and refreshed. I feel a certain dignity, like I've had a high-powered business meeting with the elements, nothing was concluded but we both see and respect each other's side of the story a bit more. Maybe now I can act and make decisions in the heat of the moment that are a little less dictated by my insidious compulsions? Or perhaps it's enough to just be grateful for the wonder of what falls from the heavens?
