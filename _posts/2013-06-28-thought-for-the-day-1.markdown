@@ -2,7 +2,7 @@
 date: 2013-06-24
 layout: post
 slug: thought-for-the-day
-title: Thought For The Day #1
+title: Thought For The Day &#35;1
 categories:
 - TFTD
 ---
