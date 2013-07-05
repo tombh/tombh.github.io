@@ -10,9 +10,7 @@ type: page
 ![picture "Picture of Tom BH"](/images/tomisme.jpg "Tom is me.")
 Hello, I'm Thomas Buckley-Houston, but you can call me tom. I live in Bristol, UK.
 
-If it wasn't for <a href="http://en.wikipedia.org/wiki/Open_source_software">open source software</a> I doubt very much
-whether I'd be working in computers, so the fact that the <a href="http://www.youtube.com/watch?v=KY5skobffk0">the very foundations of the web are
-grounded in openness</a> makes me very excited.
+I'm a full-stack web developer. Open source is my thing. My OS of choice is Debain Sid. Ruby makes me happiest.
 
 In the real world I like to meditate and spend time at <a href="http://www.gaiahouse.co.uk/">Gaia House</a>. I have a degree in Religious Studies and like to read,
 <a href="http://www.tombh.co.uk/ive-written-a-book/">write</a>
