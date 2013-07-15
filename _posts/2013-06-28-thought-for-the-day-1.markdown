@@ -7,6 +7,8 @@ categories:
 - TFTD
 ---
 
+*Broadcast 24th of June 2013 on BBC Radio Bristol*
+
 Roads in central Bristol reopen today after many were closed for the city’s first Car-Free Sunday.  The streets came alive with music, games, theatre and food. It’s all part of what George Ferguson has dubbed “Make Sundays Special”.
 
 It’s a notably common feature of our religious traditions to set aside regular dates in a calendar, whether it’s days in the week for worship or annual holidays to remember historical events. These moments are outside the everyday routines of going to work and paying the bills. They are special times that give us the space to recollect and revere.
