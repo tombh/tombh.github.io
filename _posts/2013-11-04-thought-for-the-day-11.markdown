@@ -1,5 +1,5 @@
 ---
-date: 2013-04-11
+date: 2013-11-04
 layout: post
 slug: thought-for-the-day-11
 title: Thought For The Day &#35;11
