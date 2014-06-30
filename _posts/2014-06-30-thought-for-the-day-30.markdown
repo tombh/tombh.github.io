@@ -1,5 +1,5 @@
 ---
-date: 2014-06-306
+date: 2014-06-30
 layout: post
 slug: thought-for-the-day-30
 title: Thought For The Day &#35;30
