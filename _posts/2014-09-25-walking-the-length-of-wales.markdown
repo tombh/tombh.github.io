@@ -11,8 +11,8 @@ I am walking the length of Wales. From Llandudno to my flat in Bristol. It is so
 2 weeks, give or take a day or 2, or 5! I don't have a strict route, but would like to pass some waypoints on the way;
 Tryfan, Snowdon, Cadaer Idris, the sources of the Wye and Severn, the Brecon Beacons, the Wye Valley and the old
 Severn bridge. You can keep up with my exact GPS location because I've got a phone app that broadcasts to the
-[Viewranger Website](http://www.viewranger.com/buddybeacon/v2/?bb[]=tom@tombh.co.uk;1234#userbar_top) (I've also
-embedded the tracker at the bottom of this blog post). Also, follow me on Twitter, I'm [@twombh](http://twitter.com), for live updates.
+[Viewranger Website](http://www.viewranger.com/buddybeacon/v2/?bb[]=tom@tombh.co.uk;1234#userbar_top).
+Also, follow me on Twitter, I'm [@twombh](http://twitter.com), for live updates.
 
 [I've made a custom Google map  of the rough route](https://www.google.com/maps/d/viewer?mid=zxNmmwVVPbuk.k2byRvPHOQeE).
 
@@ -39,22 +39,3 @@ as I go, I am a geek after all.
 
 ##Every single item I will travel with
 <img width="100%" src="https://pbs.twimg.com/media/ByZ-I2jIUAAgqow.jpg:large">
-
-<div style="clear:both"></div>
-<br />
-##Live map of where I am, or at least, where my phone is!
-<iframe 
-  style="
-  -moz-transform: scale(0.7, 0.7); 
-  -webkit-transform: scale(0.7, 0.7); 
-  -o-transform: scale(0.7, 0.7);
-  -ms-transform: scale(0.7, 0.7);
-  transform: scale(0.7, 0.7); 
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-  overflow: hidden;"
-  width="1000px" height="600px" src="http://www.viewranger.com/buddybeacon/v2/?bb[0]=tom@tombh.co.uk;1234&size=large#map_top">
-</iframe>
