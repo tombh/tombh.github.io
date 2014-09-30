@@ -2,7 +2,7 @@
 date: 2014-09-30
 layout: post
 slug: walkig-wales-day-3-&-4
-title: Walking Wales: Day 3 & 4
+title: Walking Wales - Day 3 & 4
 categories:
 - Mill Grist
 ---
