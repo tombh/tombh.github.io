@@ -2,7 +2,7 @@
 date: 2014-10-04
 layout: post
 slug: walkig-wales---days-5-to-8
-title: Walkig Wales - Days 5 to 8
+title: Walking Wales - Days 5 to 8
 categories:
 - Mill Grist
 ---

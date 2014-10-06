@@ -2,7 +2,7 @@
 date: 2014-09-27
 layout: post
 slug: walkig-wales-day-2
-title: Walkig Wales - Day 2
+title: Walking Wales - Day 2
 categories:
 - Mill Grist
 ---
