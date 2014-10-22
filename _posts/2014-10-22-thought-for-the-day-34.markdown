@@ -1,5 +1,5 @@
 ---
-date: 2014-08-27
+date: 2014-10-22
 layout: post
 slug: thought-for-the-day-34
 title: Thought For The Day &#35;34
@@ -7,7 +7,7 @@ categories:
 - TFTD
 ---
 
-*Broadcast 22nd of August 2014 on BBC Radio Bristol*
+*Broadcast 22nd of October 2014 on BBC Radio Bristol*
 
 Audio available at [http://www.mytalky.com/rTM](http://www.mytalky.com/rTM)
 
