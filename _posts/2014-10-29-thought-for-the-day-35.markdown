@@ -9,7 +9,7 @@ categories:
 
 Broadcast 29th of October 2014 on BBC Radio Bristol
 
-Audio available at (http://www.mytalky.com/wSM)[http://www.mytalky.com/wSM]
+Audio available at [http://www.mytalky.com/wSM](http://www.mytalky.com/wSM)
 
 It’s been in the news that we may not have enough electricity this winter. Last year we had 5% more than we needed and this year we only have 4%. That does sound like a close call, especially if we have a proper cold snap.
 
