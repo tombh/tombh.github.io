@@ -1,7 +1,7 @@
 ---
 date: 2014-10-29
 layout: post
-slug: thought-for-the-day-#35
+slug: thought-for-the-day-35
 title: Thought For The Day &#35;35
 categories:
 - Mill Grist
