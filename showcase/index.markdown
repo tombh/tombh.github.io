@@ -5,10 +5,18 @@ slug: showcase
 title: Showcase
 ---
 
+##TEDx Talk
+
+<img src="/images/youtube_bread_cat.jpg" alt="Dharma API"/>
+
+I gave a short talk at TEDx Bath about vulnerability. It used pictures of cats with their heads sticking through pieces of bread, people laughed.
+
+[You can watch it on Youtube](https://www.youtube.com/watch?v=FmpX1jkLrSY)
+
 ##The Dharma API
 
 <img src="/images/dharma-api.png" alt="Dharma API"/>
-      
+
 This is an ambitious project to try and archive all the dharma talks (Buddhist-themed teachings about meditation) on the Internet. There's about 17 thousand at the moment. It's written using Ruby's Sinatra to adhere to traditioanl REST specifications.
 
 [Visit site](http://dharma-api.com) or [view source on Github](https://github.com/tombh/dharma-api).
@@ -16,7 +24,7 @@ This is an ambitious project to try and archive all the dharma talks (Buddhist-t
 ##Reddit Drill
 
 <img src="/images/reddit-drill_small.png" alt="Openpractice"/>
-      
+
 Being an avid redditor (see <a href="http://reddit.com">Reddit</a>), I often stumble upon deep comment threads. Some even grow to be many thousands long.
 So, I developed a visualiser that parses Reddit's API and graphs deep threads in an easily consumable visual form.
 
@@ -30,24 +38,24 @@ It's written in Python, hosted on Google App Engine and can be contributed to vi
 <img src="/images/openpractice_small.png" alt="Openpractice"/>
 I've ended up making 3 projects now that require heavy usage of the Twitter Search API; <a href="http://uksnow.tombh.co.uk" target="_blank">#uksnow</a>,
 <a href="http://openpractice.me" target="_blank">#openpractice</a> and <a href="http://stocktweets.co.uk" target="_blank">Stocktweets</a>. So I decided to wrap up my code in a nice and tidy class and put it on the <a href="http://github.com/tombh/tweetFactory" target="_blank">githubs</a>.
-      
+
 It essentially solves 2 problems that client-side Twitter widgets have trouble with.
 
 Firstly, it can handle very large queries, say if you're searching for any occurence of multiple variances of the top 350 FTSE share codes.</li>
 
 Secondly, it stores all the results in a database so that you can call on them at anytime. Twitter's search API only returns results fromthe last 7 or so days you see.
 
-      
+
 ##Frintr &mdash; Social Graph Mosaics
-      
+
 <img src="/images/frintr_screen_small.jpg" alt="Frintr"/>
 
 <a href="http://www.frintr.com">Frintr</a> is a business I setup and developed by myself. It generates mosaics from Facebook/Myspace/Twitter friends that go to
 form a high resolution image of your own profile picture.
-   
+
 Built in a dedicated Linux environment, using the Symfony PHP framework. Uses Facebook, Myspace and Twitter APIs for authentication and integration. I
 <a href="http://www.tombh.co.uk/how-i-elasticised-my-web-app" target="_blank">blogged</a> about how I separated the application logic from the web logic and elasticised servers.
-      
+
 ##Animated #uksnow Twitter Hashtag
 
 <img src="/images/timelapse_screen_smaller.jpg" alt="UKsnow Timelapse"/>
@@ -60,7 +68,7 @@ the snowfall which nicely matches the Met Office cloud-cover and precipitation d
 Makes heavy use of jQuery, Google Maps API, Google Geolocation API, MySQL cache. Read <a href="http://www.tombh.co.uk/2010/01/uksnow-timelapse/">my accompanying blog post here</a>.
 
 <a href="http://uksnow.tombh.co.uk">Visit site &raquo;</a>
-   
+
 ##Reality to HTML
 
 <img src="/images/nm_small.jpg" alt="Nicola Marie" />
@@ -79,4 +87,3 @@ I was, for a while, actively involved in the <a href="http://www.puppylinux.org"
 I developed a popular derivative called <a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">wNOP</a> that
 automatically configured the OpenGL Window Manager, <a href="http://www.youtube.com/watch?v=_ImW0-MgR8I&amp;feature=related">Compiz-Fusion</a>, 'out-of-the-box'. So I am told, tens of thousands of copies
 have been downloaded.
-      
