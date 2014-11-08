@@ -18,4 +18,4 @@ and <a href="http://www.beingordinary.org">podcast</a> about spiritual matters.
 
 Please feel free to get in touch &mdash; <strong>tom<span style="display:none">nospam</span>@tombh.co.uk</strong>
 
-Or follow my [tweets](http://www.twitter.com/twombh), watch my [Youtubes](https://www.youtube.com/user/iamtombh/videos), look at my [Flickr](http://www.flickr.com/photos/tombuckley/), join my [LinkedIn](http://www.linkedin.com/pub/thomas-buckley-houston/9/478/445), or hangout on my [G+ profile](https://plus.google.com/115720766788573901001).
+Or follow my [tweets](http://www.twitter.com/twombh), sigh at my [Facebook](https://www.facebook.com/tbuckleyhouston) updates, watch my [Youtubes](https://www.youtube.com/user/iamtombh/videos), look at my [Flickr](http://www.flickr.com/photos/tombuckley/), join my [LinkedIn](http://www.linkedin.com/pub/thomas-buckley-houston/9/478/445), or hangout on my [G+ profile](https://plus.google.com/115720766788573901001).
