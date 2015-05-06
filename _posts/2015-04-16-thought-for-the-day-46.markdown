@@ -1,8 +1,8 @@
 ---
 date: 2015-04-16
 layout: post
-slug: thought-for-the-day-16
-title: Thought For The Day &#35;16
+slug: thought-for-the-day-46
+title: Thought For The Day &#35;46
 categories:
 - Mill Grist
 ---
