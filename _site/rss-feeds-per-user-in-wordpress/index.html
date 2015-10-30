@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<title>tom bh</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="Me_DN7gOhDhF0PNu5ALBSOd-_362oOMSMAQXOFmEuXI" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/pygments.css" />
+	
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+</head>
+
+
+	<body class="blog">
+
+
+	<div class="wrapper">
+
+		<div class="header_wrap">
+			<a class="header" href="/" title="tom bh" rel="home">
+				<div class="blog-title">
+					<span>
+						<img class="heart_logo" src="/images/heart_logo.png" width="100" alt="Watercolour Heart Logo" />
+						tom bh
+					</span>
+				</div>
+				<div class="blog-description">#Web Developer<br />#Meditator</div>
+			</a>
+
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="/blog" class="blog">Blog</a>
+					</li>
+					<li>
+						<a href="/about" class="about">About</a>
+					</li>
+					<li>
+						<a href="/showcase" class="showcase">Showcase</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/twombh" target="_blank"><img src="/images/twitter.png" alt="Follow me on Twitter" /></a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div classs="container">
+			<div class="content">
+
+				<h1>RSS feeds per user in Wordpress</h1>
+
+<span class="post_date">04 May 2009</span>
+
+<p>Googled for a while expecting to find some plugin to do this, but no luck. So here's a quick hack;</p>
+
+<p>Open up /wp-includes/feed-rss2.php and at about line 35, after where it starts the while() loop, add;</p>
+
+<p><code>&lt;?php
+if ( isset( $_GET['author'] ) ) :
+if ( get_the_author_ID() != $_GET['author'] ) continue;
+endif;
+?&gt;
+</code></p>
+
+<p>You will now be able to create feeds on a per user basis via, the URL</p>
+
+<p><code>www.mysite.com/?feed=rss2&amp;author=[author_id]</code></p>
+
+<p>The surest way to get a user/author's ID is in the admin backend under "Users", if you hover over a username the ID will be in the URL.</p>
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #wrapper .hfeed -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="/js/main.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26149594-1']);
+		_gaq.push(['_setDomainName', 'tombh.co.uk']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<title>tom bh</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="Me_DN7gOhDhF0PNu5ALBSOd-_362oOMSMAQXOFmEuXI" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/pygments.css" />
+	
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+</head>
+
+
+	<body class="blog">
+
+
+	<div class="wrapper">
+
+		<div class="header_wrap">
+			<a class="header" href="/" title="tom bh" rel="home">
+				<div class="blog-title">
+					<span>
+						<img class="heart_logo" src="/images/heart_logo.png" width="100" alt="Watercolour Heart Logo" />
+						tom bh
+					</span>
+				</div>
+				<div class="blog-description">#Web Developer<br />#Meditator</div>
+			</a>
+
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="/blog" class="blog">Blog</a>
+					</li>
+					<li>
+						<a href="/about" class="about">About</a>
+					</li>
+					<li>
+						<a href="/showcase" class="showcase">Showcase</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/twombh" target="_blank"><img src="/images/twitter.png" alt="Follow me on Twitter" /></a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div classs="container">
+			<div class="content">
+
+				<h1>Simplate -- a very simple PHP templating system</h1>
+
+<span class="post_date">24 April 2008</span>
+
+<p>I have designed a very simple PHP templating system called Simplate, you can <a href="/images/simplate-01.zip">download it from here</a>. Instructions on how to use it are contained within the Readme.txt file.</p>
+
+<p>I sometimes like to describe PHP as 'HTML with conditional statements', this is perhaps on over-simplification, but for anyone new to web development it's usually enough to make them go 'Ah!'. You see, all PHP does is just output ordinary HTML, but it lets you ask a few questions before it does so, like, 'is it Saturday?' or 'what's the most recent database entry?' and then let's you choose some appropriate HTML to display depending on the answers. Simple really.</p>
+
+<p>Perhaps the simplest PHP-thing I can think of is putting the current date at the bottom of a web-page, which would be done like this,</p>
+
+<p><code>&lt;?php print date() ?&gt;</code></p>
+
+<p>And then to style, position it, or whatever, all you need to do is surround it with HTML and CSS, for example,</p>
+
+<p><code>&lt;strong class="beautiful"&gt;
+&lt;?php print date() ?&gt;
+&lt;/strong&gt;</code></p>
+
+<p>But I think the first real benefit that an HTMLer would receive from PHP is simple templating. Let's say we are making a website that has a consistent design across all its pages -- maybe a colourful banner across the top with the website's name in a pretty font. Now let's also say there are 10 pages to this site and that the banner must appear at the top of every single one, no problem, we can just copy and paste the HTML into every single page. Great. But what if we find a mistake or we want to change the wording of the banner? We have to go through every single page and change it! Not so great. What if we could simply store the banner-HTML in a single file and get it to fetch different page-contents into itself? That would mean that if a change needed to be made to the banner then all we need do is update one little file! PHP makes this kind of thing very easy.</p>
+
+<p>This is the basis of templating and when such techniques become a necessity, and not a luxury, we have the foundations of Content Management Systems, like Wordpress (from which this site is made), Joomla and Drupal. But let's have a closer look at this simple templating for now, here's how a typical page might be coded,</p>
+
+<p><code>&lt;h1&gt;Banner that Always Appears at the Top&lt;/h1&gt;
+``&lt;?php include($a_page) ?&gt;</code></p>
+
+<p>where<code>$a_page</code> is a variable that stores the address of the file that contains the requested page-contents.</p>
+
+<p>So the basic premise is pretty simple really. But one tricky problem we come across is that actually we may want the banner to be slightly different on each page. Most commonly, the problem occurs when the banner also provides site navigation and you want the banner to indicate, by highlighting the appropriate button, which section of the site we are currently viewing. I'm not sure of the technical term for this, but I call it <em>currentification</em>. And in order to do this we have to use PHP to insert some kind of class or ID into the anchor tag of the page currently being viewed in order to differentiate it as 'current'. Again, this is the kind of thing that PHP makes very easy. It might be coded something like,</p>
+
+<p><code>&lt;?php if ($link_address == $current_url) $class='current'; ?&gt;
+&lt;a href="&lt;?php print $link_address ?&gt;" class="&lt;?php print $class ?&gt;"&gt;Link Title&lt;/a&gt;</code></p>
+
+<p>So there you have it, the fundamentals of templating, and these are exactly the principles that have gone to make up Simplate.</p>
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #wrapper .hfeed -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="/js/main.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26149594-1']);
+		_gaq.push(['_setDomainName', 'tombh.co.uk']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<title>tom bh</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="Me_DN7gOhDhF0PNu5ALBSOd-_362oOMSMAQXOFmEuXI" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/pygments.css" />
+	
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+</head>
+
+
+	<body class="blog">
+
+
+	<div class="wrapper">
+
+		<div class="header_wrap">
+			<a class="header" href="/" title="tom bh" rel="home">
+				<div class="blog-title">
+					<span>
+						<img class="heart_logo" src="/images/heart_logo.png" width="100" alt="Watercolour Heart Logo" />
+						tom bh
+					</span>
+				</div>
+				<div class="blog-description">#Web Developer<br />#Meditator</div>
+			</a>
+
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="/blog" class="blog">Blog</a>
+					</li>
+					<li>
+						<a href="/about" class="about">About</a>
+					</li>
+					<li>
+						<a href="/showcase" class="showcase">Showcase</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/twombh" target="_blank"><img src="/images/twitter.png" alt="Follow me on Twitter" /></a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div classs="container">
+			<div class="content">
+
+				<h1>Lenny, Nginx, FastCGI and Symfony</h1>
+
+<span class="post_date">22 March 2010</span>
+
+<p>Running Apache on 256MB of RAM is not ideal and when I started worrying that my VPS might not be able to cope with sudden spikes in traffic I decided to give Nginx a shot.</p>
+
+<p>This isn't a concise tutorial, I mainly just want to share my Nginx config that got Symfony URL rewrites going, but here's the basic idea;</p>
+
+<h2>Don't panic about downtime!</h2>
+
+<p>It's possible to run Nginx and Apache side by side on different ports so that you can migrate your vhost configs in your own time. Follow a tutorial <a href="http://www.ubuntugeek.com/using-nginx-as-a-reverse-proxy-to-get-the-most-out-of-your-vps.html">like this</a>.</p>
+
+<h2>Packages</h2>
+
+<h3>Nginx</h3>
+
+<p>Debian Lenny currently only provides the older version 6 of Nginx, I can't find any repos that offer the newer, stable version 7, so you'll want to compile it yourself, not to worry, it's very straightforward thanks to <a href="http://www.myatus.co.uk/2009/09/07/compiling-nginx-on-debian-ubuntu/">Myatu's excellent tutorial</a>. I'd highly reccomend installing the Debian Nginx v6 package first in order to get the init scripts which aren't supplied when compiling from source ‒ by compiling you are then simply replacing the binary.</p>
+
+<h3>FastCGI</h3>
+
+<p>You might come across a lot of people that say you need to rip some <em>spawn-php</em> package from Lighttpd, don't bother. If you're prepared to be running PHP 5.3 just get php-fpm from the DotDeb repo;</p>
+
+<p><code>deb http://php53.dotdeb.org stable all</code></p>
+
+<p>I already had php5 installed from the official Debian repos so I just did an <em>aptitude update</em> and <em>upgrade</em> and then installed <em>php5-fpm</em>.</p>
+
+<p>Now you want to place this config inside the server{} definition of your Nginx configs, I've placed mine inside each individual /etc/nginx/sites-available config, but I'd hope there was some way of doing it more globally.</p>
+
+<div class="highlight"><pre><code class="language-nginx" data-lang="nginx"><span class="k">location</span> <span class="p">~</span> <span class="sr">\.php($|/)</span><span class="p">{</span>
+  <span class="kn">set</span>  <span class="nv">$script</span>     <span class="nv">$uri</span><span class="p">;</span>
+  <span class="kn">set</span>  <span class="nv">$path_info</span>  <span class="s">&quot;&quot;</span><span class="p">;</span>
+
+  <span class="kn">if</span> <span class="s">(</span><span class="nv">$uri</span> <span class="p">~</span> <span class="sr">&quot;^(.+\.php)(/.+)&quot;)</span> <span class="p">{</span>
+          <span class="kn">set</span>  <span class="nv">$script</span>     <span class="nv">$1</span><span class="p">;</span>
+          <span class="kn">set</span>  <span class="nv">$path_info</span>  <span class="nv">$2</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kn">fastcgi_pass</span> <span class="n">127.0.0.1</span><span class="p">:</span><span class="mi">9000</span><span class="p">;</span>
+  <span class="kn">fastcgi_param</span> <span class="s">SCRIPT_FILENAME</span> <span class="s">/your/web/root</span><span class="nv">$script</span><span class="p">;</span>
+  <span class="kn">fastcgi_param</span> <span class="s">SCRIPT_NAME</span> <span class="nv">$script</span><span class="p">;</span>
+  <span class="c1">#fastcgi_param PATH_INFO $fastcgi_script_name;</span>
+  <span class="kn">include</span> <span class="s">/etc/nginx/fastcgi_params</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+
+<h2>Symfony Rewrite Rules</h2>
+
+<p>Now this was by far the hardest bit for me, there's very little definitive advice on this out there and it took a lot of trial and error to get this running exactly right, but here is what is working for me. Please note I think that it is important that this works in combination with the above FastCGI config above (also place within server{} defs);</p>
+
+<div class="highlight"><pre><code class="language-nginx" data-lang="nginx"><span class="k">location</span> <span class="s">/</span> <span class="p">{</span>
+  <span class="kn">root</span>   <span class="s">/your/web/root</span><span class="p">;</span>
+  <span class="kn">index</span>  <span class="s">index.php</span><span class="p">;</span>
+
+  <span class="kn">if</span> <span class="s">(-f</span> <span class="nv">$request_filename</span><span class="s">)</span> <span class="p">{</span>
+    <span class="kn">expires</span> <span class="s">max</span><span class="p">;</span>
+    <span class="kn">break</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kn">if</span> <span class="s">(</span><span class="nv">$request_filename</span> <span class="s">!~</span> <span class="s">&quot;\.(js|htc|ico|gif|jpg|png|css)</span><span class="nv">$&quot;</span><span class="s">)</span> <span class="p">{</span>
+    <span class="kn">rewrite</span> <span class="s">^(.*)</span> <span class="s">/index.php</span> <span class="s">last</span><span class="p">;</span>
+  <span class="p">}</span>
+
+<span class="p">}</span></code></pre></div>
+
+
+
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #wrapper .hfeed -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="/js/main.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26149594-1']);
+		_gaq.push(['_setDomainName', 'tombh.co.uk']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>

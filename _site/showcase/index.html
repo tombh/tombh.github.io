@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<title>tom bh</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="Me_DN7gOhDhF0PNu5ALBSOd-_362oOMSMAQXOFmEuXI" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/pygments.css" />
+	
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+</head>
+
+
+	<body class="showcase">
+
+
+	<div class="wrapper">
+
+		<div class="header_wrap">
+			<a class="header" href="/" title="tom bh" rel="home">
+				<div class="blog-title">
+					<span>
+						<img class="heart_logo" src="/images/heart_logo.png" width="100" alt="Watercolour Heart Logo" />
+						tom bh
+					</span>
+				</div>
+				<div class="blog-description">#Web Developer<br />#Meditator</div>
+			</a>
+
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="/blog" class="blog">Blog</a>
+					</li>
+					<li>
+						<a href="/about" class="about">About</a>
+					</li>
+					<li>
+						<a href="/showcase" class="showcase">Showcase</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/twombh" target="_blank"><img src="/images/twitter.png" alt="Follow me on Twitter" /></a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div classs="container">
+			<div class="content">
+
+				<h2>TEDx Talk</h2>
+
+<p><img src="/images/youtube_bread_cat.jpg" alt="Dharma API"/></p>
+
+<p>I gave a short talk at TEDx Bath about vulnerability. It used pictures of cats with their heads sticking through pieces of bread, people laughed.</p>
+
+<p><a href="https://www.youtube.com/watch?v=FmpX1jkLrSY">You can watch it on Youtube</a></p>
+
+<h2>The Dharma API</h2>
+
+<p><img src="/images/dharma-api.png" alt="Dharma API"/></p>
+
+<p>This is an ambitious project to try and archive all the dharma talks (Buddhist-themed teachings about meditation) on the Internet. There's about 17 thousand at the moment. It's written using Ruby's Sinatra to adhere to traditioanl REST specifications.</p>
+
+<p><a href="http://dharma-api.com">Visit site</a> or <a href="https://github.com/tombh/dharma-api">view source on Github</a>.</p>
+
+<h2>Reddit Drill</h2>
+
+<p><img src="/images/reddit-drill_small.png" alt="Openpractice"/></p>
+
+<p>Being an avid redditor (see <a href="http://reddit.com">Reddit</a>), I often stumble upon deep comment threads. Some even grow to be many thousands long.
+So, I developed a visualiser that parses Reddit's API and graphs deep threads in an easily consumable visual form.</p>
+
+<p>It's written in Python, hosted on Google App Engine and can be contributed to via <a href="https://github.com/tombh/Reddit-Drill">Github</a>.</p>
+
+<p><a href="http://reddrill.tombh.co.uk">Visit site &raquo;</a></p></p>
+
+<h2>Tweet Factory</h2>
+
+<p><img src="/images/openpractice_small.png" alt="Openpractice"/>
+I've ended up making 3 projects now that require heavy usage of the Twitter Search API; <a href="http://uksnow.tombh.co.uk" target="_blank">#uksnow</a>,
+<a href="http://openpractice.me" target="_blank">#openpractice</a> and <a href="http://stocktweets.co.uk" target="_blank">Stocktweets</a>. So I decided to wrap up my code in a nice and tidy class and put it on the <a href="http://github.com/tombh/tweetFactory" target="_blank">githubs</a>.</p>
+
+<p>It essentially solves 2 problems that client-side Twitter widgets have trouble with.</p>
+
+<p>Firstly, it can handle very large queries, say if you're searching for any occurence of multiple variances of the top 350 FTSE share codes.</li></p>
+
+<p>Secondly, it stores all the results in a database so that you can call on them at anytime. Twitter's search API only returns results fromthe last 7 or so days you see.</p>
+
+<h2>Frintr &mdash; Social Graph Mosaics</h2>
+
+<p><img src="/images/frintr_screen_small.jpg" alt="Frintr"/></p>
+
+<p><a href="http://www.frintr.com">Frintr</a> is a business I setup and developed by myself. It generates mosaics from Facebook/Myspace/Twitter friends that go to
+form a high resolution image of your own profile picture.</p>
+
+<p>Built in a dedicated Linux environment, using the Symfony PHP framework. Uses Facebook, Myspace and Twitter APIs for authentication and integration. I
+<a href="http://www.tombh.co.uk/how-i-elasticised-my-web-app" target="_blank">blogged</a> about how I separated the application logic from the web logic and elasticised servers.</p>
+
+<h2>Animated #uksnow Twitter Hashtag</h2>
+
+<p><img src="/images/timelapse_screen_smaller.jpg" alt="UKsnow Timelapse"/></p>
+
+<p>This is simply the same concept as <a href="http://uksnow.benmarsh.co.uk" target="_blank">Ben Marsh's #uksnow map</a> &mdash; therefore
+plotting all tweets that contain the hashtag "#uksnow" <em>and</em> some gecodable data (like a postcode or placename). Except
+that my version also animates the tweets over time (starting from December 31st 2009), this allows you to watch the ebb and flow of
+the snowfall which nicely matches the Met Office cloud-cover and precipitation data for the same periods.</p>
+
+<p>Makes heavy use of jQuery, Google Maps API, Google Geolocation API, MySQL cache. Read <a href="http://www.tombh.co.uk/2010/01/uksnow-timelapse/">my accompanying blog post here</a>.</p>
+
+<p><a href="http://uksnow.tombh.co.uk">Visit site &raquo;</a></p>
+
+<h2>Reality to HTML</h2>
+
+<p><img src="/images/nm_small.jpg" alt="Nicola Marie" /></p>
+
+<p>Forget those <a href="http://www.psd2html.com/">PSD2HTML</a> services, I've developed a technique for converting <em>reality</em> to valid HTML!</p>
+
+<p><a href="/nicolamarie/products-page/dresses/index.html" target="_blank">Nicola Marie &raquo;</a></p></p>
+
+<div style="clear:both"></div>
+
+
+<h2>wNOP &mdash; Compiz-enabled Linux</h2>
+
+<p><img src="/images/compiz_small.jpg" alt="wNOP - Compiz Linux" /></p>
+
+<p>I was, for a while, actively involved in the <a href="http://www.puppylinux.org">Puppy Linux</a> community during which time
+I developed a popular derivative called <a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">wNOP</a> that
+automatically configured the OpenGL Window Manager, <a href="http://www.youtube.com/watch?v=_ImW0-MgR8I&amp;feature=related">Compiz-Fusion</a>, 'out-of-the-box'. So I am told, tens of thousands of copies
+have been downloaded.</p>
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #wrapper .hfeed -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="/js/main.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26149594-1']);
+		_gaq.push(['_setDomainName', 'tombh.co.uk']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>

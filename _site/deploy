@@ -1,0 +1,1 @@
+rsync -avz --rsh='ssh -p2222' --exclude='.git' _site/* root@tombh.co.uk:/var/www/tombh

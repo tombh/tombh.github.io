@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+<head profile="http://gmpg.org/xfn/11">
+	<title>tom bh</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="Me_DN7gOhDhF0PNu5ALBSOd-_362oOMSMAQXOFmEuXI" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/pygments.css" />
+	
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+</head>
+
+
+	<body class="blog">
+
+
+	<div class="wrapper">
+
+		<div class="header_wrap">
+			<a class="header" href="/" title="tom bh" rel="home">
+				<div class="blog-title">
+					<span>
+						<img class="heart_logo" src="/images/heart_logo.png" width="100" alt="Watercolour Heart Logo" />
+						tom bh
+					</span>
+				</div>
+				<div class="blog-description">#Web Developer<br />#Meditator</div>
+			</a>
+
+
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="/blog" class="blog">Blog</a>
+					</li>
+					<li>
+						<a href="/about" class="about">About</a>
+					</li>
+					<li>
+						<a href="/showcase" class="showcase">Showcase</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/twombh" target="_blank"><img src="/images/twitter.png" alt="Follow me on Twitter" /></a>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div classs="container">
+			<div class="content">
+
+				<h1>Rackup For Wordpress</h1>
+
+<span class="post_date">03 June 2012</span>
+
+<p>One of the great things about the Ruby ecosystem is the development practice of firing up quick, per-project development servers. So, you can be in the root of your project and you issue;</p>
+
+
+
+
+<p><code>rackup</code></p>
+
+
+
+
+<p>And a server is fired up serving your app from lcoalhost:8080 (or whatever port you specify). This is so much less of a headache than configuring Apache or Nginx/PHP-FCGI.</p>
+
+
+
+
+<p>So I got to thinking, surely there must be something similar for PHP apps. The nearest I came across was <a href="https://bitbucket.org/ravelsoft/node-sng">SNG</a>, which is actually a Node module. It's a wrapper around Nginx and PHP-FCGI that creates an adhoc and temporary server. It works really well, but it doesn't honour .htaccess rules, which means it won't fire up a Wordpress site very well. I got infinite redirect problems :(</p>
+
+
+
+
+<p>So then I thought I'd dig around in the Ruby world and it turns out that Rack, the framework that supports the serving of Ruby apps has, what it calls, legacy support for PHP in the form of <a href="https://github.com/eric1234/rack-legacy">rack-legacy</a>. Unfortunately, it took me rather a long time to get the config right. I think it's to do with the fact that everyone else has got it working with Pow on OSX, whereas I am a humble Linux user. Anyway, here's a Gist of the config.ru file you need to put in the root of your Wordpress site <a href="https://gist.github.com/2860953">https://gist.github.com/2860953</a> Rackup and rack-legacy are easily installed with;</p>
+
+
+
+
+<p><code>gem install rack rack-legacy rack-rewrite</code></p>
+
+
+
+
+<p>Once you've done that, just;</p>
+
+
+
+
+<p><code>rackup</code></p>
+
+
+
+
+<p>And you're good to go :)</p>
+
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #wrapper .hfeed -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="/js/main.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26149594-1']);
+		_gaq.push(['_setDomainName', 'tombh.co.uk']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body>
+</html>
