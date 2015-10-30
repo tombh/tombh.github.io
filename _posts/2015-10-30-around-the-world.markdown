@@ -12,3 +12,5 @@ a rough plan, but I want to be flexible. It may take months or years. If you hav
 meet me anywhere, let me know.
 
 <iframe src="https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/1978814f391c9674bf2c2df41e819943/around-the-world/index.html" frameborder="0" width="100%" height="800"></iframe>
+
+[This full screen version of the map is better](https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/1978814f391c9674bf2c2df41e819943/around-the-world/index.html)
