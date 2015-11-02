@@ -7,7 +7,7 @@ categories:
 - Around The World
 ---
 
-I am now a Digital Nomad. I am attempting to travel around the world, starting and returning to Bristol, UK. I have
+I am now a Digital Nomad; a software engineer of no fixed abode. I am attempting to travel around the world, starting and returning to Bristol, UK. I have
 a rough plan, but I want to be flexible. It may take months or years. If you have any recommendations, or want to
 meet me anywhere, let me know.
 
