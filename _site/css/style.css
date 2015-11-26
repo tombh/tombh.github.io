@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -110,7 +110,7 @@ blockquote {
 
 sup {
 	position: relative;
-	top: -0.5em; 
+	top: -0.5em;
 	font-size: 80%;
 }
 
@@ -226,15 +226,15 @@ a.header:hover .heart_logo {
 .menu li img {
 	margin-top: -5px;
 	-webkit-transition: all .1s ease-in-out;
-	-moz-transition: all .1s ease-in-out; 
-	-o-transition: all .1s ease-in-out; 
-	-ms-transition: all .1s ease-in-out; 
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
 }
-.menu li img:hover { 
-	-webkit-transform: rotate(-18deg); 
-	-moz-transform: rotate(-18deg); 
+.menu li img:hover {
+	-webkit-transform: rotate(-18deg);
+	-moz-transform: rotate(-18deg);
 	-o-transform: rotate(-18deg);
-	-ms-transform: rotate(-18deg); 
+	-ms-transform: rotate(-18deg);
 }
 
 body.blog .menu a.blog,
@@ -255,6 +255,10 @@ body.showcase .menu a.showcase {
 	box-shadow: 0 0 25px #6B6B63;
 	float: left;
 	margin: 0 2em 1em 0;
+}
+
+.content img[src$='#wide'] {
+	width: 100%;
 }
 
 .about .content img,
@@ -316,7 +320,7 @@ body.showcase .menu a.showcase {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 867px) {
-	
+
 	.wrapper {
 		width: 480px;
 		padding: 0 30px;

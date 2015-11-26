@@ -8,7 +8,7 @@ type: page
 ##About me
 
 ![picture "Picture of Tom BH"](/images/tomisme.jpg "Tom is me.")
-Hello, I'm Thomas Buckley-Houston, but you can call me tom. I am from Bristol, UK, but I'm currently [traveling the world](/around-the-world).
+Hello, I'm Thomas Buckley-Houston, but you can call me Tom. I am from Bristol, UK, but I'm currently [traveling the world](/around-the-world).
 
 I'm a full-stack web developer, you can see the code I've written on [Github](http://github.com/tombh).
 

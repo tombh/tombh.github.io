@@ -5,6 +5,22 @@ slug: showcase
 title: Showcase
 ---
 
+##Walking Wales
+
+<img src="/images/walking_wales.jpg" alt="Walking Wales"/>
+
+In the Autumn of 2014 I walked solo 270km from North Wales to my flat in Bristol. Somewhat of a pilgrimage I managed to
+document the adventure on video, which [you can now watch it on Youtube](https://www.youtube.com/watch?v=6uQ0RfoOVC4)
+
+##Peas: Platform as a Service
+
+<img src="/images/peas.jpg" alt="Peas"/>
+
+Possibly the most complex software I've ever written. This is a [Heroku](https://heroku.com)-inspired service that
+allows you to host and scale your own [12 Factor Apps](http://12factor.net). It got on the front page of Hacker News.
+
+[Source on Github](https://github.com/tombh/peas)
+
 ##TEDx Talk
 
 <img src="/images/youtube_bread_cat.jpg" alt="Dharma API"/>
