@@ -4,12 +4,12 @@ layout: post
 slug: carl-rogers-essay
 title: Essay On Carl Rogers For My Psychotherapy Course
 categories:
-- Psyhc
+- Psychotherapy
 ---
 
 ##Discuss the basic qualities of empathy, unconditional positive regard and congruence, showing your understanding of them and exploring the ease and/or difficulty you have in adopting each of them.
 
-Unconditional positive regard (UPR), empathy and congruence, also known as the core conditions, are the central concepts of Carl Rogers’ approach to psychotherapy. They describe the basic requirements that, when sufficiently present in the therapist, allow the healing process of talking therapy to occur. To give a brief orientation with the words of Rogers himself; 
+Unconditional positive regard (UPR), empathy and congruence, also known as the core conditions, are the central concepts of Carl Rogers’ approach to psychotherapy. They describe the basic requirements that, when sufficiently present in the therapist, allow the healing process of talking therapy to occur. To give a brief orientation with the words of Rogers himself;
 
 UPR;
 > When the therapist is experiencing a warm, positive and accepting attitude toward what is in the client [...] It means that he prizes the client in a total rather than conditional way. (Rogers 2004 p62)
@@ -45,14 +45,3 @@ As much as I would like to secure a set of discrete and infallible rules, indivi
 * McLeod, J. _(2009) An Introduction to Counselling_ Maidenhead, Open University Press (first published 1993)
 * Mearns, D. & Thorne B. (2007) _Person-Centred Counselling in Action_ London, Sage Publications (first published 1988)
 * Rogers, C. (2004) _On Becoming A Person_ London, Constable & Robinson (first published 1961)
-
-
-
-
-
-
-
-
-
-
-

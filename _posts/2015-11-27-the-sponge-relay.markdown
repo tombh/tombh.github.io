@@ -1,0 +1,36 @@
+---
+date: 2015-11-27
+layout: post
+slug: the-sponge-relay
+title: The Sponge Relay
+categories:
+- Around The World
+---
+
+After the roaring success of [Sponge Watch](http://spongewatch.tumblr.com/) I've decided to bring a sponge theme to
+my global travels. When I left my flat in Bristol I took a brand new sponge with me. That sponge was then exchanged
+with a sponge from the host of the next place I stayed at (namely Katja Durrani). I then carried that sponge with me
+to the next host and ceremoniously made another exchange. I plan to carry out this relay all around the world.
+
+At first glance, this is indeed as strange as it looks. But I do have deeper reasons for it. The original Sponge Watch project
+was borne from a desire to observe and acknowledge the slow, almost imperceptively so, movement of impermanence all
+around us. Of course at the far end of the spectrum impermanence reminds us of our, and ultimately the universe's,
+unavoidable demise. Yet this demise moves so slowly that we often don't notice it: a fact somewhat out of balance with its
+significance. For me Sponge Watch was a cute and slightly satirical attempt to readdress that balance. To show that even
+the most mundane of everyday objects possessed the poignance of impermanence.
+
+And so with expert consultancy and brainstorming with [Marvin Slow](https://twitter.com/slowmanslow) and
+[Tom Heath](https://twitter.com/tommyh) The Sponge Relay project was born. I hope it promotes cross-cultural understanding
+of the ordinary yet profound and universal truth of the brief, yet magical, opportunity we have to live, laugh and wash dishes.
+
+## Archives
+
+<div class="sponge-tweets">
+
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash">#spongeRelay</a> 3: Bristol to Paris. That&#39;s me and <a href="https://twitter.com/potatoihave">@potatoihave</a> under the Eiffel Tower <a href="https://t.co/nuygwLkRpI">pic.twitter.com/nuygwLkRpI</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/662311914844893184">November 5, 2015</a></blockquote>
+
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash">#spongeRelay</a> 2. Exchange of similar, but not identical, Bristolian scourers, typical of British supermarkets. <a href="https://t.co/AB4Hh5lwzM">pic.twitter.com/AB4Hh5lwzM</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/658770850808791040">October 26, 2015</a></blockquote>
+
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">My first day as a nomad, I begin The Sponge Relay: exchanging a sponge from my previous host with one from my current <a href="http://t.co/kq4VBd2ZW3">pic.twitter.com/kq4VBd2ZW3</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/653651874420256768">October 12, 2015</a></blockquote>
+
+</div>

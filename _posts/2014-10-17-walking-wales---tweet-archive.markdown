@@ -4,7 +4,7 @@ layout: post
 slug: walking-wales---tweet-archive
 title: Walking Wales - Tweet Archive
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 <a class="twitter-timeline"  href="https://twitter.com/twombh/timelines/523198842791923712" data-widget-id="523203565251080192">Walking Wales</a>

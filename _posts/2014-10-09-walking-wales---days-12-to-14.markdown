@@ -4,7 +4,7 @@ layout: post
 slug: walking-wales---days-12-to-17
 title: Walking Wales - Days 12 to 17
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 A lot to catch up on. I've covered about 75km since my last post; Rhyader to Builth Wells to Brecon to Abergavenny.

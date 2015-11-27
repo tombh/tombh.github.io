@@ -4,7 +4,7 @@ layout: post
 slug: walking-wales---days-9-to-11
 title: Walking Wales - Days 9 to 11
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 I left Machynlleth about 4pm on Saturday, I could still hear the bass thumps of the fair as I got into the hills. I took a little B road, with a sign that said "Llanidloes 19 miles via narrow mountain road". I made a surprising distance before nigthfall - roads are much easier to get a good pace on. With stressful memories of the previous few night's camping spots, I made a concerted effort to stop earlier at the first site of a decent place to set up tent. I found, what seemed to be, a fairly sheepless field with a view of the sunset. I got up early to try and avoid being noticed. As soon as I opened the tent I saw that I was in a field of rams. I remembered being given one of the biggest bruises of my life by a ram when I was a teenager, so I decided to pack up straight away and do my morning routine somewhere safer.

@@ -33,8 +33,24 @@ $(document).ready(function() {
     }
 });
 
+$(document).ready(function(){
+  var category = window.location.hash.substr(1);
+  showCategory(category);
+  $('.category-filter').on('click', function(){
+    var category = this.classList[1];
+    showCategory(category);
+  });
+});
+
+function showCategory(category){
+  if(category == '') return;
+  $('.archives li').show();
+  $('.archives li').hide();
+  $('.archives .' + category).show();
+  $('.category-title').text(category.replace(/-/g, ' ').replace(/\b./g, function(m){ return m.toUpperCase(); }));
+}
+
 function replaceURLWithHTMLLinks(text) {
     var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
     return text.replace(exp,"<a href='$1'>$1</a>");
 }
-      

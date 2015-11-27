@@ -4,7 +4,7 @@ layout: post
 slug: walkig-wales-day-2
 title: Walking Wales - Day 2
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 How geeky is this? I am in a tent, in the middle of Snowdonia, writing a blog post on my phone. I have weak Edge Internet reception and I have been charging my batteries using the Welsh sun.

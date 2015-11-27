@@ -316,7 +316,18 @@ body.showcase .menu a.showcase {
     height: 100%;
 }
 
+.categories {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+}
 
+.categories .separator {}
+
+.sponge-tweets iframe {
+	margin: auto;
+	margin-bottom: 50px;
+}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 867px) {

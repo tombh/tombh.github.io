@@ -4,7 +4,7 @@ layout: post
 slug: walking-the-length-of-wales
 title: Walking The Length Of Wales
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 I am walking the length of Wales. From Llandudno to my flat in Bristol. It is some 275km and will take me about

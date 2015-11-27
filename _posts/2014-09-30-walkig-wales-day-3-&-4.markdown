@@ -4,7 +4,7 @@ layout: post
 slug: walkig-wales-day-3-&-4
 title: Walking Wales - Day 3 & 4
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 What a couple of days I've had! Day 3 was a rollercoaster. I started off at a campsite at the base of the Carneddau and began by climbing one of Wales' hardest mountains, Tryfan.

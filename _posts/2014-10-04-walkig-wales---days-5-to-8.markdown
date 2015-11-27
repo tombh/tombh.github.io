@@ -4,7 +4,7 @@ layout: post
 slug: walkig-wales---days-5-to-8
 title: Walking Wales - Days 5 to 8
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 Leaving Beddgelert was a pleasant walk along roads and through woods. I came upon the first rain that evening, but I enjoyed the opportunity to get out all my rainproof gear. I left finding a camping spot a bit late and ended up having to camp in a picnic area with a sign that had a tent with a line through it. I was in the middle of nowhere and left nothing but the small white marks of toothpaste spit.

@@ -4,7 +4,7 @@ layout: post
 slug: walking-wales---days-18-to-20
 title: Walking Wales - Days 18 to 20
 categories:
-- Mill Grist
+- Walking Wales
 ---
 
 The final days!
