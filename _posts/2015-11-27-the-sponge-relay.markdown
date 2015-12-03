@@ -8,7 +8,7 @@ categories:
 ---
 
 After the roaring success of [Sponge Watch](http://spongewatch.tumblr.com/) I've decided to bring a sponge theme to
-my global travels. When I left my flat in Bristol I took a brand new sponge with me. That sponge was then exchanged
+my [journey around the world](/around-the-world). When I left my flat in Bristol I took a brand new sponge with me. That sponge was then exchanged
 with a sponge from the host of the next place I stayed at (namely Katja Durrani). I then carried that sponge with me
 to the next host and ceremoniously made another exchange. I plan to carry out this relay all around the world.
 
@@ -26,6 +26,8 @@ of the ordinary yet profound and universal truth of the brief, yet magical, oppo
 ## Archives
 
 <div class="sponge-tweets">
+
+  <blockquote class="twitter-tweet" lang="en"><p lang="fr" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash">#spongeRelay</a> 5 chez <a href="https://twitter.com/MelissaAyers">@melissaayers</a> et <a href="https://twitter.com/spointu">@spointu</a> en Chambèry <a href="https://t.co/kdbEkTCc1B">pic.twitter.com/kdbEkTCc1B</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/670932745548361729">November 29, 2015</a></blockquote>
 
   <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash">#spongeRelay</a> 4 with <a href="https://twitter.com/MartineBatch">@MartineBatch</a> in Bordeaux. Read more about this strange project: <a href="https://t.co/VDVuM8u2VE">https://t.co/VDVuM8u2VE</a> <a href="https://t.co/QQwnXRZZkx">pic.twitter.com/QQwnXRZZkx</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/670327657784066048">November 27, 2015</a></blockquote>
 
