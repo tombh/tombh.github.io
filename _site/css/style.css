@@ -261,6 +261,12 @@ body.showcase .menu a.showcase {
 	width: 100%;
 }
 
+/* might not work everywhere */
+.content img[src$='#mega'] {
+	width: 200%;
+	margin-left: -50%;
+}
+
 .about .content img,
 .showcase .content img {
 	width: 150px;
