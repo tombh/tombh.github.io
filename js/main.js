@@ -1,4 +1,4 @@
-var jsonTwitterFeed = "/tweets.json";
+var jsonTwitterFeed = "https://jsonp.afeld.me/?url=https://twitrss.me/twitter_user_to_rss/?user=twombh";
 
 $(document).ready(function() {
     var el = $(".twitter div");
@@ -7,19 +7,24 @@ $(document).ready(function() {
         $.ajax({
             url: jsonTwitterFeed,
             data: {},
-            dataType: "json",
+            dataType: "xml",
             timeout: 5000,
             success: function(data){
+                xml = $(data);
+                data = xml.find('item');
                 var str = '';
                 var matches = 0;
                 var tweet_date = '';
                 var adte = '';
                 for(var i = 0; i < 50; i++) {
-                    if(data[i].text.charAt(0) != '@'){
-                        console.log(data[i].created_at);
-                        date = data[i].created_at.split(" ");
-                        tweet_date = '<span class="post_date">' + date[2] + " " + date[1] + " " + date[5] + '</span>';
-                        str += '<li>' + tweet_date + replaceURLWithHTMLLinks(data[i].text) + '</li>';
+                    var tweet = $(data[i]);
+                    var tweet_text = tweet.find('title').text();
+                    if(tweet_text.charAt(0) != '@'){
+                        var date_bits = tweet.find('pubDate').text().split(' ');
+                        date_bits.splice(-1,1);
+                        tweet_date = date_bits.join(' ')
+                        var date = '<span class="post_date">' + tweet_date + '</span>';
+                        str += '<li>' + date + replaceURLWithHTMLLinks(tweet_text) + '</li>';
                         matches++;
                         if(matches == 4) break;
                     }
@@ -51,6 +56,9 @@ function showCategory(category){
 }
 
 function replaceURLWithHTMLLinks(text) {
-    var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-    return text.replace(exp,"<a href='$1'>$1</a>");
+    exp = /([a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z0-9\&\/\?\:@\-_=#])+)/g;
+    text = text.replace(exp, "<a href=\"$1\" target=\"_blank\">$1</a>");
+    exp = /(href=")(?!http)/ig;
+    text = text.replace(exp, "href=\"http://");
+    return text;
 }

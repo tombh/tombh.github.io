@@ -7,17 +7,17 @@ type: page
 	<h2>Latest Posts</h2>
 	<ul>
 	  {% for post in site.posts limit: 3 %}
-	 
-	  <li>
-	    <a href="{{ post.url }}">
-	      <h3>{{ post.title }}</h3>
-	    </a>
-	    <div class="excerpt">
-		<span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
-		    {{ post.content | strip_html | truncatewords: 25 }}
-	    </div>
-	  </li>
-	 
+			{% unless post.exclude_from_index %}
+			  <li>
+			    <a href="{{ post.url }}">
+			      <h3>{{ post.title }}</h3>
+			    </a>
+			    <div class="excerpt">
+						<span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
+				    {{ post.content | strip_html | truncatewords: 25 }}
+			    </div>
+			  </li>
+			{% endunless %}
 	  {% endfor %}
 	</ul>
 	<a href="/blog">Archive of all posts &rarr;</a>
@@ -26,4 +26,12 @@ type: page
 <div class="twitter">
 	<h2>Latest Tweets</h2>
 	<div>Loading&hellip;</div>
+</div>
+
+<div class="about-section">
+	{% markdown about.markdown %}
+</div>
+
+<div class="showcase-section">
+	{% markdown showcase.markdown %}
 </div>

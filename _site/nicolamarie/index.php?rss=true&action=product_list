@@ -1,218 +1,0 @@
-<?xml version='1.0'?>
-<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:product='http://www.buy.com/rss/module/productV2/'>
-  <channel>
-    <title>Nicola Marie Products</title>
-    <link>http://old.nicolamarie.com/wp-admin/admin.php?page=wp-shopping-cart/display-log.php</link>
-    <description>This is the WP E-Commerce Product List RSS feed</description>
-    <generator>WP E-Commerce Plugin</generator>
-    <atom:link href='http://old.nicolamarie.com/index.php?rss=true&amp;action=product_list' rel='self' type='application/rss+xml' />    <item>
-      <title>Suzy shift dress</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/suzy-shift-dress/</link>
-      <description>Simple little shift. So versatile - wear it over jeans layered with a long-sleeved Tee. Or accessorise with jewelled flats and some eye-candy.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/suzy-shift-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/21-2.jpg' length='6278' type='image/jpeg' width='150' height='200' />
-      <product:price>53.00</product:price>
-    </item>
-    <item>
-      <title>Rock Chick Ra Ra Skirt - 3 Made</title>
-      <link>http://old.nicolamarie.com/products-page/one-offs/rock-chick-ra-ra-skirt---3-made/</link>
-      <description>Show your rock chick side....</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/one-offs/rock-chick-ra-ra-skirt---3-made/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/2-2.jpg' length='4738' type='image/jpeg' width='150' height='200' />
-      <product:price>25.00</product:price>
-    </item>
-    <item>
-      <title>Vintage A-line Skirt - One made</title>
-      <link>http://old.nicolamarie.com/products-page/skirts/vintage-a-line-skirt---one-made/</link>
-      <description></description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/skirts/vintage-a-line-skirt---one-made/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/31.jpg' length='7530' type='image/jpeg' width='150' height='200' />
-      <product:price>48.00</product:price>
-    </item>
-    <item>
-      <title>Simplicity Summer Classic A-line Skirt</title>
-      <link>http://old.nicolamarie.com/products-page/skirts/simplicity-summer-classic-a-line-skirt/</link>
-      <description>Simplicity fabric once again, white with cutsie blue flowers.  100% Cotton</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/skirts/simplicity-summer-classic-a-line-skirt/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/5.jpg' length='5317' type='image/jpeg' width='150' height='200' />
-      <product:price>32.00</product:price>
-    </item>
-    <item>
-      <title>Slimplicity Halty</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/slimplicity-halty/</link>
-      <description>Simplicity for the summer - White dress with cutsie blue flowers.  100% Cotton</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/slimplicity-halty/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/27.jpg' length='4599' type='image/jpeg' width='150' height='200' />
-      <product:price>58.00</product:price>
-    </item>
-    <item>
-      <title>Roxy Style Halty</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/roxy-style-halty/</link>
-      <description></description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/roxy-style-halty/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/26-2.jpg' length='5092' type='image/jpeg' width='150' height='200' />
-      <product:price>65.00</product:price>
-    </item>
-    <item>
-      <title>Cowl Neck Button Top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top/</link>
-      <description>These garments are practical and cute, all come with different buttons which make them uniquie.  Please do specify if you want regular or large buttons</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/17.jpg' length='2270' type='image/jpeg' width='150' height='200' />
-      <product:price>28.00</product:price>
-    </item>
-    <item>
-      <title>Cowl Neck Button Top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</link>
-      <description>These tops are fab, all come with different buttons which make them uniquie.  Please do specify if you want regular or large buttons</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/16-2.jpg' length='3209' type='image/jpeg' width='150' height='200' />
-      <product:price>28.00</product:price>
-    </item>
-    <item>
-      <title>Cowl Neck Button Top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</link>
-      <description>These tops are fab, all come with different buttons which make them uniquie.  Please do specify if you want regular or large buttons</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/15.jpg' length='3225' type='image/jpeg' width='150' height='200' />
-      <product:price>28.00</product:price>
-    </item>
-    <item>
-      <title>Cowl Neck Button Top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</link>
-      <description>These tops are fab, all come with different buttons which make them uniquie.  Please do specify if you want regular or large buttons</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/cowl-neck-button-top1/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/14.jpg' length='3645' type='image/jpeg' width='150' height='200' />
-      <product:price>28.00</product:price>
-    </item>
-    <item>
-      <title>Brown V-Neck front and rear top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/brown-v-neck-front-and-rear-top/</link>
-      <description>This top compliments the honey and chocolate skirt perfectly.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/brown-v-neck-front-and-rear-top/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/13.jpg' length='3855' type='image/jpeg' width='150' height='200' />
-      <product:price>25.00</product:price>
-    </item>
-    <item>
-      <title>Satin Blend Hipster</title>
-      <link>http://old.nicolamarie.com/products-page/skirts/satin-blend-hipster/</link>
-      <description>Satin Blend, Hipster Round Chocolate and Honey Skirt, with Chocolate binding to give it that extra swing!</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/skirts/satin-blend-hipster/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/8.jpg' length='7506' type='image/jpeg' width='150' height='200' />
-      <product:price>32.00</product:price>
-    </item>
-    <item>
-      <title>Flower Sunshine Yellow Top with Silver Detail</title>
-      <link>http://old.nicolamarie.com/products-page/tops/flower-sunshine-yellow-top-with-silver-detail/</link>
-      <description>Shineshine Yellow Halterneck Top with flower detail.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/flower-sunshine-yellow-top-with-silver-detail/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/12.jpg' length='6121' type='image/jpeg' width='150' height='200' />
-      <product:price>28.00</product:price>
-    </item>
-    <item>
-      <title>Delilah dress</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/delilah-dress/</link>
-      <description>Well,it's what she would have worn if she'd had the chance!Nipped in waist,gently ruched bust,deep V neck with sizzling scarlet satin!Just make sure you can handle it!
- </description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/delilah-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/30a.jpg' length='4441' type='image/jpeg' width='150' height='200' />
-      <product:price>62.00</product:price>
-    </item>
-    <item>
-      <title>Christmas Cracker dress</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/christmas-cracker-dress/</link>
-      <description>Frothy net, cute sash, strapless bodice. What's not to love? Our sumptuous satin dress is quite simply hot, hot, hot.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/christmas-cracker-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/29.jpg' length='5711' type='image/jpeg' width='150' height='200' />
-      <product:price>120.00</product:price>
-    </item>
-    <item>
-      <title>Vintage A-line Daisy Skirt</title>
-      <link>http://old.nicolamarie.com/products-page/skirts/vintage-a-line-daisy-skirt/</link>
-      <description>Brilliant retro 70's vintage daisy print teamed with a chilled cut means minimum effort for max impact.  Go retro rock chic with leather jacket and heals.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/skirts/vintage-a-line-daisy-skirt/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/3-2.jpg' length='7170' type='image/jpeg' width='150' height='200' />
-      <product:price>42.00</product:price>
-    </item>
-    <item>
-      <title>Beautiful Round Skirt</title>
-      <link>http://old.nicolamarie.com/products-page/skirts/beautiful-round-skirt/</link>
-      <description>Royal Blue Band, attached to 100% cotton sway skirt, perfect for the summer.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/skirts/beautiful-round-skirt/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/1.jpg' length='5591' type='image/jpeg' width='150' height='200' />
-      <product:price>42.00</product:price>
-    </item>
-    <item>
-      <title>summer halty</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/summer-halty1/</link>
-      <description>perfect for summer fun</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/summer-halty1/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/25.jpg' length='6705' type='image/jpeg' width='150' height='200' />
-      <product:price>58.00</product:price>
-    </item>
-    <item>
-      <title>Satin Blend halty</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/satin-blend-halty/</link>
-      <description>Gathered detail at bust,flattering A -line cut and a halterneck.Retro print and super slinky satin blend fabric.Wear with jewelled pumps or heals and bags of attitude!!</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/satin-blend-halty/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/24.jpg' length='5647' type='image/jpeg' width='150' height='200' />
-      <product:price>58.00</product:price>
-    </item>
-    <item>
-      <title>Glato Dress</title>
-      <link>http://old.nicolamarie.com/products-page/festival/glato-dress/</link>
-      <description>New fabric for this dress will be up loaded soon, keep checking..</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/festival/glato-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/festival.jpg' length='7726' type='image/jpeg' width='150' height='200' />
-      <product:price>50.00</product:price>
-    </item>
-    <item>
-      <title>Suzy 2 Shift Dress  </title>
-      <link>http://old.nicolamarie.com/products-page/dresses/suzy-2-shift-dress/</link>
-      <description>Here she is again, working another gorgeous colourway. Pared down, flexible dress - will give you whatever vibe you need.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/suzy-2-shift-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/20.jpg' length='6811' type='image/jpeg' width='150' height='200' />
-      <product:price>53.00</product:price>
-    </item>
-    <item>
-      <title>Green retro tank vest top</title>
-      <link>http://old.nicolamarie.com/products-page/tops/green-retro-tank-vest-top/</link>
-      <description>Do you want something you can just chuck on in a hurry but still want to look gorgeous?
-Here it is - This versatile top is ready for action day or night!!</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/tops/green-retro-tank-vest-top/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/9.jpg' length='4073' type='image/jpeg' width='150' height='200' />
-      <product:price>23.00</product:price>
-    </item>
-    <item>
-      <title>Poppet dress</title>
-      <link>http://old.nicolamarie.com/products-page/dresses/poppet-dress/</link>
-      <description>Simple shift with retro-inspired graphic floral print and delicious bubblegum pink detailing.As good on the street as in the club.Looks amazing over jeans with an armful of bangles.</description>
-      <pubDate>Sat, 11 Jul 2009 11:04:29 +0100</pubDate>
-      <guid>http://old.nicolamarie.com/products-page/dresses/poppet-dress/</guid>
-      <enclosure url='http://old.nicolamarie.com/wp-content/uploads/wpsc/product_images/thumbnails/22.jpg' length='5580' type='image/jpeg' width='150' height='200' />
-      <product:price>53.00</product:price>
-    </item>
-  </channel>
-</rss>

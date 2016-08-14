@@ -14,7 +14,7 @@ meet me anywhere, let me know.
 ##Follow my progress
 You can keep track of me in the usual places, like the blog on this website, and also my [Twitter](https://twitter.com/twombh) and [Facebook](https://www.facebook.com/tbuckleyhouston)
 
-I will also be conducting a [Sponge Relay](http://tombh.co.uk/the-sponge-relay/) as I travel.
+I will also be conducting a [Sponge Relay](/the-sponge-relay) as I travel.
 
 My friend [Dave Frey](https://plus.google.com/u/0/+DaveFrey) is [taking screenshots](https://photos.google.com/share/AF1QipNEgeD46c24EDrun6alBsSiPcrw2Lxd5rqaIB-YgEpWqx-fChiSpBokVxP3SJw_5Q?key=YVUwUTFZX0ZRLWUyZG1KWi10ekh1Z0xLZW84UzBR) of our weekly meditation over Google Hangouts.
 

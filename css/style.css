@@ -77,15 +77,16 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 }
 h2 {
-	font-size: 1.3em;
-	margin-top: 2em;
+	font-size: 2em;
 	margin-bottom: 1em;
 }
 h3 {
-	font-size: 1.1em;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	clear: both;
 }
 
 
@@ -185,7 +186,6 @@ a.header:hover .heart_logo {
 	line-height: 1.6em;
 }
 
-
 .menu{
 	float: right;
 	margin-top: -15px;
@@ -267,9 +267,16 @@ body.showcase .menu a.showcase {
 	margin-left: -50%;
 }
 
-.about .content img,
-.showcase .content img {
-	width: 150px;
+.about-section img,
+.showcase-section img {
+	width: 200px;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.showcase-break {
+	margin-bottom: 2em;
+	clear: both;
 }
 
 .post_date {
@@ -289,6 +296,7 @@ body.showcase .menu a.showcase {
 	list-style-type: none;
 	margin-left: 0;
 	margin-bottom: 1em;
+	word-wrap: break-word;
 }
 .excerpt,
 .twitter li {
@@ -330,9 +338,21 @@ body.showcase .menu a.showcase {
 
 .categories .separator {}
 
-.sponge-tweets iframe {
+.twitter-tweet-rendered {
 	margin: auto;
 	margin-bottom: 50px;
+}
+
+.about-section {
+	clear: both;
+	margin-top: 2em;
+	float: left;
+}
+
+.showcase-section {
+	clear: both;
+	margin-top: 1em;
+	float: left;
 }
 
 /* Landscape phone to portrait tablet */
