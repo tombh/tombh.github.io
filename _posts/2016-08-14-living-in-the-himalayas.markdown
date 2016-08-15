@@ -61,7 +61,7 @@ I find it almost Haiku-like in how it densely packs so many cultural insights in
 
 Other classics include, "Safety on the road, is safe tea at home", "Go easy on my curves" and "Be Mr Late Than Late Mr".
 
-However, in fairness, Ladakh is not actually culturally that Indian, it's more well, Ladakhi, which is closer to neighbouring Tibet in character. Which in turn has connections with Mongolian culture — most notably cuisine, clothing and religion. Here's a photo I found on Google:
+However, in fairness, Ladakh is not actually culturally that Indian, it's more well, Ladakhi, which is closer to neighbouring Tibet in character. Which in turn has connections with Mongolian culture — I especially notice the similarities in cuisine, clothing and religion. Here's a photo I found on Google:
 
 ![](/images/india/ladakhis.jpg#wide)
 
