@@ -11,7 +11,7 @@ plugins_dir: ./_plugins
 future:      true
 lsi:         false
 highlighter: rouge
-markdown:    rdiscount
+markdown:    kramdown
 permalink:   /:title
 
 maruku:
