@@ -90,6 +90,10 @@ h3 {
 }
 
 
+.blog h2 {
+  margin-top: 1em;
+}
+
 p {
 	margin-bottom: 1em;
 }
@@ -118,21 +122,30 @@ sup {
 code {
 	font-family: monospace;
 	font-size: 75%;
-
 }
 
 pre code {
 	display: block;
 	margin-bottom: 1em;
 	margin-left: 2em;
-	border-left: 7px solid #7D0F0F;
+	border-left: 4px solid #7D0F0F;
 	padding-left: 1em;
-	overflow-x: scroll;
+	overflow-x: auto;
+}
+
+small.caption {
+  text-align: center;
+  font-size: 70%;
+  display: block;
 }
 
 li {
 	margin-left: 2em;
 	list-style-type: circle;
+}
+
+ul li ul {
+  margin-bottom: 1em;
 }
 
 a {

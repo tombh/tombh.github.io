@@ -1,15 +1,16 @@
 safe:        false
-port: 4000
-baseurl:    /
-url: http://localhost:4000
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+url: http://0.0.0.0:4000
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir: ./_plugins
 
 future:      true
 lsi:         false
-pygments:    true
+highlighter: rouge
 markdown:    rdiscount
 permalink:   /:title
 
@@ -28,8 +29,8 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
-  
+  enable_coderay: false
+
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline

@@ -25,8 +25,8 @@ title: Blog
         <h3>{{ post.title }}</h3>
       </a>
       <div class="excerpt">
-  	<span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
-  	    {{ post.content | strip_html | truncatewords: 50 }}
+    <span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
+        {{ post.content | strip_html | truncatewords: 50 }}
       </div>
     </li>
   {% endfor %}
