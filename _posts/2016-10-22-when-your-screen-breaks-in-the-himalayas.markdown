@@ -22,7 +22,7 @@ I'm a Linux and Android person, so some of the details here won't be applicable 
 
 ## The bootstrap
 
-Like Matt Daemon's stranded character in The Martian, at first you're technically blind so achieving those primitive initial steps to bootstrap could be potentially slow and painstaking.
+Like Matt Damon's stranded character in The Martian, at first you're technically blind so achieving those primitive initial steps to bootstrap could be potentially slow and painstaking.
 
 Ideally we want SSH access from our phone to the laptop, but it's unlikely you have that already setup. Fortunately there is some automation on our side, for instance you may already have your phone's wifi hotspot set to auto connect when you turn it on. And even if you don't, then it's almost certain your OS's DHCP client will auto connect to a USB tether. But. There are two _major_ obstacles &mdash; installing the SSH daemon and discovering your laptop's IP address.
 
