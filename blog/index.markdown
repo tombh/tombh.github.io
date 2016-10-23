@@ -9,8 +9,10 @@ title: Blog
 <div class="categories">
   <a href="#all-posts" class="category-filter all-posts">All Posts</a>
   {% for category in site.categories %}
-    <span class=separator>&middot;</span>
-    <a href="#{{ category | first | slugify }}" class="category-filter {{ category | first | slugify }}">{{ category | first }}</a>
+    <span class="separator">&middot;</span>
+    <a href="#{{ category | first | slugify }}" class="category-filter {{ category | first | slugify }}">
+      {{ category | first }}
+    </a>
   {% endfor %}
 </div>
 
