@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/tombh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tombh.co.uk
+  * I am tombh (https://keybase.io/tombh) on keybase.
+  * I have a public key with fingerprint 3317 BFD3 B392 2F6C 0DAE  BE40 62CC 4ABB D9C0 B437
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b18080a16d78d8ba21ae5d305c5fed43a34cb65b45dc21a6dee27c60e21e98180a",
+      "fingerprint": "3317bfd3b3922f6c0daebe4062cc4abbd9c0b437",
+      "host": "keybase.io",
+      "key_id": "62cc4abbd9c0b437",
+      "kid": "0101a35a7201f2f690e078fd54916dc546b93919eff7c6e30c916e310bd06af4d2480a",
+      "uid": "c2d31221036fb8832498e5409abd4c19",
+      "username": "tombh"
+    },
+    "service": {
+      "hostname": "tombh.co.uk",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522559370,
+  "expire_in": 157680000,
+  "prev": "ecc3876dd410d99a09ade46453b6ed76c385948b598778ecd0246e4191b3866f",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUm1QVFUYXhQKHNEIo5yM7JopgXDu9700JBEMmAwwYwHJEtxzz1m4Abvr7rJ8
++RFpphs2BpRE2WiQKChqErFBiEg7BRIogwbVFI0NkhMfMQxag3SWYqYfnT9nzvM+
+z/M+7zvnsO9SnbcHvPJC61BHk+jRMwZ12zu0ihIKmlARFV5C5eCFC+cibLVl5GiI
+CqcAzQBIS0ACCi0gUUISVBhawTxiAa/yBow4VmE5FQo85HikkpqAMGZEVQCYobEs
+EbFChVAGzZiFLWaLZrQRW5alRWhALGRlhjEIKkAKhpgDAqOqnAIhklUAOVYkwmyT
+1a0g4aBixaGaiWDkkbEQ73/4i7kBrbC8IjKANpAOMsBAlAyI52Qyh8pzApRZmZax
+wUCiYhaoBMcsDSACgmLgEMP9kzt/wU5lEEszDA1YwQAliWU4WcI8B2QFIk6lZTfR
+ii1GJQ8Tts2UB7OpXSEUgeyait1bdY/x33KoagrNzyE6s8VkM6mmXFLIttnM4W6d
+rcjsJhZgmPGvRQbUjIiskAjs2GLVTEYqnCZM1aa5PWmeYXheZkUQQuFCs2bBGZqb
+wYuCBMhxt8F2YolVlZVEASGOBi8iWVbICAhzAsezUMBIFEiZlzkJ8rIkihJWEWA4
+AXO0TENWEgQD5Z5qh9FEzCUSVMkiplYty6jY8i2Y2rXs4BLWU+fhrXss4AlP9uGL
+AxfKw3J9G9sjF/+d1xL3p9Mt83lgEam9tXK+qN1cdeX5/rmWm7q6LV2ZVcaQL44X
+p/0SWJeeMtOfM+G1McrimWyPuGkMGInv+PR2+6FIajLYsX8yzdOlF96P+r706fT5
+nsbNKcGdZU7RfykquTXVPlOR90qsfivoP1C1+uiI3/pD99WltG37WpndvY42Th/0
+6zn3ZF11jLcjrlm/5Zs1Jys7Y9aVX+anXld3VJfVOpfPuVBZe/+gLWbT2T17twZP
+6FIb7++FHaDw+u9zF8uuzoYOtZxpYutP9n13CVGZc2e/nIxIecS+4j1XUNKlTZPd
+fi89ur/mt661TWEDa49tG03t/XaAcTVRoQ1HnE6mZnnQV8W7Z+3ZP50bdY6v+aih
+PrqlWzvcu1K2uFZcPd/8g1I6bS5NPLqv9nHrQwUvp9UwhSmr3r0b2dXq4j64nPJJ
+X9rItV8TViX+uG80afha7F3ps7+kd3SG4c0r53wC71h8kqtrm6dabZV34rxfjYur
+KgGrA48P9cXtvBfRrcvMfHBPTON452BUXjSqH51wnA68MW/b+PlTrfqKgJ5OvZMs
+Yva1U2+A3jH/+OL0t58brox46/THqfMnxv88P9Pvd6OpjROakw/4lmbqA2BYQAI3
+OHYvsurnqQ/XJ6lnjrD+jtttDW0bvBxee09EJ5TT4cGOyajoZ5ITt18vnBbjdWFB
+f7yZdurYrDgeewGNW7qf3VCwU/83
+=uudn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tombh
+
+==================================================================
+

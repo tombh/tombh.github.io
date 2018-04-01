@@ -22,7 +22,7 @@ $(document).ready(function() {
                     if(tweet_text.charAt(0) != '@'){
                         var date_bits = tweet.find('pubDate').text().split(' ');
                         date_bits.splice(-1,1);
-                        tweet_date = date_bits.join(' ')
+                        tweet_date = date_bits.join(' ');
                         var date = '<span class="post_date">' + tweet_date + '</span>';
                         str += '<li>' + date + replaceURLWithHTMLLinks(tweet_text) + '</li>';
                         matches++;
@@ -48,7 +48,7 @@ $(document).ready(function(){
 });
 
 function showCategory(category){
-  if(category == '') return;
+  if(category === '') return;
   $('.archives li').show();
   $('.archives li').hide();
   $('.archives .' + category).show();
