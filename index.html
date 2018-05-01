@@ -14,7 +14,7 @@ type: page
       </a>
       <div class="excerpt">
         <span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
-        {{ post.content | strip_html | truncatewords: 25 }}
+        {{ post.content | strip_html | truncate: 100 }}
       </div>
     </li>
     {% endunless %}
