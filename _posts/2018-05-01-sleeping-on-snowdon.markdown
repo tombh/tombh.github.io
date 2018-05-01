@@ -23,11 +23,11 @@ categories:
 
 *I've been in China 9 months now and the last 2 months of that I've been attending a Chinese school.
 So I hope my Chinese is starting to become somewhat useful. Our teacher has given us some homework:
-to talk about a strange story. So I thought I'd write it down here so that you all thing I'm cool
+to talk about a strange story. So I thought I'd write it down here so that you all think I'm cool
 because I know Chinese. You can find out more about the whole adventure [here](http://tombh.co.uk/walking-wales-tweet-archive).*
 
 In 2015 I walked from North Wales to my home in Bristol. It's 275km. On the second night I climbed Snowden, the highest mountain in Wales. I didn't think I could spend the night there because it was a
-little dangerous. I watched the sunset. The view was extremely beautiful. I didn't want to leave. Because the sky and the wind was good I decided to try to sleep there. At first I was alone. It was so peaceful. It was dark, I could see lots of stars. I was a little cold but I could still sleep. Then lots of mountaineers arrived! We chatted. They thought it was strange to see someone sleeping on the mountain, I though it was strange to see mountaineers so late on the mountain! Then most of the people left. There were 4 people left. One had a bad leg. We talked about life whilst we looked at the stars. When they left I could finally sleep again.
+little dangerous. I watched the sunset. The view was extremely beautiful. I didn't want to leave. Because the sky and the wind was good I decided to try to sleep there. At first I was alone. It was so peaceful. It was dark, I could see lots of stars. I was a little cold but I could still sleep. Then lots of mountaineers arrived! We chatted. They thought it was strange to see someone sleeping on the mountain, I though it was strange to see mountaineers so late on the mountain! Then most of the people left. Four people remained. One had a bad leg. They had whiskey. We talked about life whilst we looked at the stars. When they left I could finally sleep again.
 
 
 
