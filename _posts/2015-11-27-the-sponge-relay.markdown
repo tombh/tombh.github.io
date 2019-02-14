@@ -25,6 +25,11 @@ of the ordinary yet profound and universal truth of the brief, yet magical, oppo
 
 ## Archives
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">The <a href="https://twitter.com/hashtag/spongeRelay?src=hash&amp;ref_src=twsrc%5Etfw">#spongeRelay</a> has come full circle. Here I exchange with my landlord who kindly looked after all my belongings whilst I was away. You can see all 22 of the exchanges at <a href="https://t.co/Hk41gZ4zwN">https://t.co/Hk41gZ4zwN</a> What should I do for my next adventure? <a href="https://t.co/VACo20bBja">pic.twitter.com/VACo20bBja</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/1096123710493417472?ref_src=twsrc%5Etfw">February 14, 2019</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The penultimate <a href="https://twitter.com/hashtag/spongeRelay?src=hash&amp;ref_src=twsrc%5Etfw">#spongeRelay</a> 21. With my Japanese language exchange partner in Kyoto. The next sponge will be in Bristol, bringing this strange project to completion. <a href="https://t.co/35kiadnwj5">pic.twitter.com/35kiadnwj5</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/1078073282287419396?ref_src=twsrc%5Etfw">December 26, 2018</a></blockquote>
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash&amp;ref_src=twsrc%5Etfw">#spongeRelay</a> 19, with 黄珊 (Huáng Shān, English name Ellen), the mother of a family I stayed with in Chengdu, Sichuan province China for 5 weeks. <a href="https://t.co/kai7FbpmgK">pic.twitter.com/kai7FbpmgK</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/931719581063774208?ref_src=twsrc%5Etfw">November 18, 2017</a></blockquote>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="in" dir="ltr"><a href="https://twitter.com/hashtag/spongeRelay?src=hash">#spongeRelay</a> 18, Yogyakarta, Java. With Mas Dinan on the last day of Ramadan, Idul Fitri. <a href="https://t.co/FvGVhZWZix">pic.twitter.com/FvGVhZWZix</a></p>&mdash; Tom Buckley-Houston (@twombh) <a href="https://twitter.com/twombh/status/878942886959620096">June 25, 2017</a></blockquote>
