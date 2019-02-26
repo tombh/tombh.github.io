@@ -7,10 +7,10 @@ categories:
 - Around The World
 ---
 
-After the roaring success of [Sponge Watch](http://spongewatch.tumblr.com/) I've decided to bring a sponge theme to
-my [journey around the world](/around-the-world). When I left my flat in Bristol I took a brand new sponge with me. That sponge was then exchanged
-with a sponge from the host of the next place I stayed at (namely Katja Durrani). I then carried that sponge with me
-to the next host and ceremoniously made another exchange. I plan to carry out this relay all around the world.
+When I left my flat in Bristol in 2015 to start my journey around the world I took a brand new sponge with me in honour
+of [Sponge Watch](http://spongewatch.tumblr.com/). That sponge was then exchanged with a sponge from the host of the
+next place I stayed at. I then carried that sponge with me
+to the next host and ceremoniously made another exchange. And so on.
 
 At first glance, this is indeed as strange as it looks. But I do have deeper reasons for it. The original Sponge Watch project
 was borne from a desire to observe and acknowledge the slow, almost imperceptively so, movement of impermanence all
