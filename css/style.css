@@ -60,6 +60,7 @@ body{
   color: #57574D;
   font-family: 'Fontin', 'Georgia', serif;
   background-image: url('/images/noise.png');
+  background-color: #fff;
   font-size: 18px;
   line-height: 1.5em;
 }
