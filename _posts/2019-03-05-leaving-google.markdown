@@ -69,7 +69,7 @@ superficiality they promote, but that's another conversation.
 
 Whatsapp. Such a great app! Everybody has it, great UI, works on the worst connections. This has been really
 frustrating to have to explain to people I don't have it. I opt for [Signal](https://www.signal.org/) now, hardly
-anyone uses it and the UX isn't as nice, but it uses state of art in encryption. BTW you should all now about
+anyone uses it and the UX isn't as nice, but it uses state of art in encryption. BTW you should all know about
 [Riot](https://riot.im/app), for chat, voice and video: open source, decentralised, ok mobile app, in-browser client (even for video!) and modern encryption.
 
 I swapped Gmail for [Fastmail](https://www.fastmail.com). It's about $5/month.
