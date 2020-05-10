@@ -7,7 +7,7 @@ categories:
 - Around The World
 ---
 
-##What are cases?
+## What are cases?
 
 If you are an English speaker and don't speak any other languages, then grammatical cases are likely to be unknown to you.
 Their *raison d'être* is actually pretty useful, they mark the structure of sentences; like subject and object.
@@ -97,7 +97,7 @@ But of course, this is living and natural German and you'd sound weird if you di
 
 > Germans, why do them not speak like I!?
 
-##Notes
+## Notes
 **Changes to nouns**    
 
   * <sup>1</sup> Masc. and Neyt. genitive nouns append *-(e)s*, eg; *des Mannes*

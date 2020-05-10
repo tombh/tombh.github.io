@@ -68,7 +68,7 @@ And here is the the heart of the CSS (note the alignment attributes in the backg
 {% endhighlight %}
 
 
-##Notes
+## Notes
 	
   * The top-left div provides the top-left rounded corner _and_ the top and left borders -- thus the need for padding of equal size to the size of the top-right and bottom-left divs. This padding in the top and left sides prevents the bottom-right div from obscuring the wrapping div's borders and corner.
 	

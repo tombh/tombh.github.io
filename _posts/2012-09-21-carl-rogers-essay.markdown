@@ -7,7 +7,7 @@ categories:
 - Psychotherapy
 ---
 
-##Discuss the basic qualities of empathy, unconditional positive regard and congruence, showing your understanding of them and exploring the ease and/or difficulty you have in adopting each of them.
+## Discuss the basic qualities of empathy, unconditional positive regard and congruence, showing your understanding of them and exploring the ease and/or difficulty you have in adopting each of them.
 
 Unconditional positive regard (UPR), empathy and congruence, also known as the core conditions, are the central concepts of Carl Rogers’ approach to psychotherapy. They describe the basic requirements that, when sufficiently present in the therapist, allow the healing process of talking therapy to occur. To give a brief orientation with the words of Rogers himself;
 
@@ -41,7 +41,7 @@ There is a distinct flavour of humanism to congruence. The encouragement to acti
 As much as I would like to secure a set of discrete and infallible rules, individually beholding each core condition is problematic, as ultimately the whole is greater than the sum of its parts. Nevertheless, what has most struck me about Carl Rogers’ core conditions is firstly, the conciseness with which such a small number of succinct principles address the essential nature of the therapeutic process and secondly their applicability to my life as a whole. In some ways Rogers’ is elucidating factors which I, and perhaps most others, already know of. This is astute and helpful as they provide just the right amount of guidance without being so esoteric as to burden the delicate balance of live therapy.
 
 
-##Bibliography
+## Bibliography
 * McLeod, J. _(2009) An Introduction to Counselling_ Maidenhead, Open University Press (first published 1993)
 * Mearns, D. & Thorne B. (2007) _Person-Centred Counselling in Action_ London, Sage Publications (first published 1988)
 * Rogers, C. (2004) _On Becoming A Person_ London, Constable & Robinson (first published 1961)

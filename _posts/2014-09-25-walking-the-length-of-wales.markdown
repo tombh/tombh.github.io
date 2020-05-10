@@ -21,7 +21,7 @@ Also, follow me on Twitter, I'm [@twombh](http://twitter.com), for live updates.
 </a>
 <div style="clear:both"></div>
 
-##Why?
+## Why?
 I've been thinking about doing something like this since I was a teenager. Me and some friends would often go out
 hiking for days on end. I loved the feeling of being independent, of having everything I needed to survive on my back.
 My father was similar when he was younger and walked a route similar to the one I'm planning, but finishing up in Mid-Wales
@@ -34,8 +34,8 @@ It is purely for my own indulgence; a retreat, a time to reflect and contemplate
 documentary, so I'll be filming, making diary entries and recording audio as I travel. I will also be tweeting and blogging
 as I go, I am a geek after all.
 
-##Video of my digital setup
+## Video of my digital setup
 <iframe width="100%" height="475" src="//www.youtube.com/embed/NH59UZ05QmY" frameborder="0" allowfullscreen></iframe>
 
-##Every single item I will travel with
+## Every single item I will travel with
 <img width="100%" src="https://pbs.twimg.com/media/ByZ-I2jIUAAgqow.jpg:large">

@@ -76,7 +76,7 @@ So we have covered the central concepts of Klein and Winnicott’s theories of i
 <center>
   <h2>♥</h2>
 </center>
-##Bibliography
+## Bibliography
 **Caldwell, L. & Joyce, A. (Eds)** (2011) '_Reading Winnicott_' Routledge: London    
 **Freud, S.** (2011) '_Three Essays on the Theory of Sexuality_' Martino Fine Books: USA (first published 1905)    
 **Klein, M.** (1928) '_Early Stages Of The Oedipus Complex_' in Mitchell, J. (Ed) The Selected Melanie Klein New York: The Free Press.    
