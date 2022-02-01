@@ -30,10 +30,10 @@ categories:
 
 EOF
 
-	if File.exists?("_posts/#{filename}")
-		raise "The post already exists."
-	else
-		File.write("_posts/#{filename}", content)
-		puts "#{filename} was created."
-	end
+  if File.exists?("_posts/#{filename}")
+    raise "The post already exists."
+  else
+    File.write("_posts/#{filename}", content)
+    puts "#{filename} was created."
+  end
 end
