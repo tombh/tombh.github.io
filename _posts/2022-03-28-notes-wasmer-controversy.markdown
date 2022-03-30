@@ -19,7 +19,7 @@ Just as it became clear that Javascript needed a systems runtime (Node.js) so to
 ## What I know so far
 
 <center>○</center><br/>
-I haven't found anything online yet, but I believe it is somewhat public knowledge that in 2019 Wasmer tried to poach prominent Wasm runtime developers (who? from what projects?). I don't know the details, but I believe this began to cause tensions between Wasmer and Wasmtime.
+In the early days of Wasmer (the end of 2018), Syrus Akbary, Wasmer's CEO, was interested in working with [Dan Gohman](https://twitter.com/Sunfishcode), who created [Cranelift](https://github.com/bytecodealliance/wasmtime/tree/main/cranelift), a Wasm compiler. Dan Gohman and Cranelift are now part of Wasmtime, but before that he [asked on Github](https://github.com/wasmerio/wasmer/pull/32) if Wasmer would consider a stricter license known to be more favourable to non-profit organisations. Syrus eventually declined.
 
 <center>○</center><br/>
 At a public Wasm event in March of 2019, a member of Wasmtime, [tweeted](https://twitter.com/linclark/status/1105181102694633478):
@@ -61,12 +61,12 @@ Generally it seems that Wasmer continued to communicate with BA for about a year
 
 > We made both of these points explicit in the rejection email. In that email, we also said that if Wasmer established a track record of positive engagement, we would re-evaluate.
 
-It is not clear which rejection email this is. According to Wasmer, the only rejection they had was unofficial and was received on November 12th, 2019, before the attempt to register the trademarks. Either way, it seems perfectly reasonable, that in the eyes of BA, Wasmer was not "establishing a track record of positive engagement".
+According to Wasmer, there was never an official rejection email, although there were indeed correspondances that made the above points. Either way, it seems perfectly reasonable, that in the eyes of BA, Wasmer was not "establishing a track record of positive engagement".
 
 Although there is zero evidence for it, I personally think it's clear that the "history of behavior that isn’t compatible with the BA codes of conduct" is a direct reference to Syrus' conduct at, and in response to, the public Wasm event in the tweet above.
 
 <center>○</center><br/>
-In October 2020 the entirety of [the Wasmtime team was hired by Fastly](https://bytecodealliance.org/articles/1-year-update#the-lucet-and-wasmtime-teams-join-forces). In [a Hacker News post](https://news.ycombinator.com/item?id=24897641) Syrus [expressed concerns](https://news.ycombinator.com/item?id=24900186) that, "now almost all the power of the WASI standard is concentrated into the Fastly corporation". Considering Wasmer's track record, this was not received well. And not helped by the fact that at one point [Syrus used a puppet account](https://news.ycombinator.com/item?id=24904829).
+In October 2020 the entirety of [the Wasmtime team was hired by Fastly](https://bytecodealliance.org/articles/1-year-update#the-lucet-and-wasmtime-teams-join-forces). In [a Hacker News post](https://news.ycombinator.com/item?id=24897641) Syrus [expressed concerns](https://news.ycombinator.com/item?id=24900186) that, "now almost all the power of the WASI standard is concentrated into the Fastly corporation". Considering Wasmer's track record, this was not received well. And not helped by the fact that at one point [Syrus appeared to use an alt account](https://news.ycombinator.com/item?id=24904829).
 
 <center>○</center><br/>
 In October 2021, Ivan Enderlin, one of Wasmer's most prominent employees and ultimately co-founder, [left Wasmer under difficult circumstances](https://mnt.io/2021/10/04/i-leave-wasmer). In Ivan's post he talks about a toxic working environment, being micromanaged, burnout, lies, secrets, and the departure of most of the development team (7 devs in total) for related reasons.
