@@ -1,40 +1,36 @@
 #!/bin/env ruby
 
 require 'yaml'
-require 'twitter'
+require 'tweetkit'
 
-yaml = YAML.load File.read 'twitter.yaml'
+TWOMBH_ID = '33468211'.freeze
 
-client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = yaml['CONSUMER_KEY']
-  config.consumer_secret     = yaml['CONSUMER_SECRET']
-  config.access_token        = yaml['ACCESS_TOKEN']
-  config.access_token_secret = yaml['ACCESS_SECRET']
+yaml = YAML.safe_load File.read 'twitter.yaml'
+
+client = Tweetkit::Client.new do |config|
+  config.consumer_key        = yaml['API_KEY']
+  config.consumer_secret     = yaml['API_KEY_SECRET']
+  config.bearer_token = yaml['BEARER']
 end
 
-tweets = client.user_timeline(
-  {
-    count: 50,
-    exclude_replies: true,
-    include_rts: true
-  }
+tweets = client.get(
+  "users/#{TWOMBH_ID}/tweets?tweet.fields=created_at&max_results=50"
 )
 
-# Only show 4 tweets
-tweets = tweets[0..3]
+count = 0
+tweets_html = ''
 
-tweets_html = ""
+tweets.response['data'].each do |tweet|
+  body = tweet['text']
+  next if body.start_with?('@')
 
-tweets.each do |tweet|
-  date = Date.parse(tweet.created_at.to_s).strftime "%e %B %Y"
-  body = tweet.full_text
-  tweet.urls.each do |url|
-    short = url.url
-    link_html = "<a href=\"#{url.expanded_url}\">#{url.display_url}</a>"
-    body = body.gsub short, link_html
-  end
+  body.gsub!(/(http\S+)/, '<a href="\1">\1</a>')
+
+  date = Date.parse(tweet['created_at'].to_s).strftime '%e %B %Y'
   date_html = "<span class=\"post_date\">#{date}</span>"
   tweets_html += "<li>#{date_html}#{body}</li>"
+  count += 1
+  break if count > 3
 end
 
 tweets_html = "<ul>#{tweets_html}</ul>"
