@@ -55,12 +55,14 @@ table {
   src: local('Fontin Regular'), local('Fontin-Regular'), url('/fonts/fontin/Fontin-Regular.woff') format('woff'), url('/fonts/fontin/Fontin-Regular.ttf') format('truetype'), url('/fonts/fontin/Fontin-Regular.svg#Fontin-Regular') format('svg');
 }
 
+html {
+  background-color: #131516;
+}
+
 body{
   text-align: center;
-  color: #57574D;
+  color: rgb(180, 174, 164);
   font-family: 'Fontin', 'Georgia', serif;
-  background-image: url('/images/noise.png');
-  background-color: #fff;
   font-size: 18px;
   line-height: 1.5em;
 }
@@ -111,7 +113,7 @@ strong {
 blockquote {
   margin: 2em 4em;
   padding-left: 15px;
-  border-left: 7px solid #7D0F0F;
+  border-left: 7px solid rgb(239, 122, 122);
   font-style: italic;
 }
 
@@ -130,7 +132,7 @@ pre code {
   display: block;
   margin-bottom: 1em;
   margin-left: 2em;
-  border-left: 4px solid #7D0F0F;
+  border-left: 4px solid rgb(239, 122, 122);
   padding-left: 1em;
   overflow-x: auto;
 }
@@ -151,7 +153,7 @@ ul li ul {
 }
 
 a {
-  color: #7D0F0F;
+  color: rgb(239, 122, 122);
   text-decoration: none;
 }
 
@@ -169,7 +171,7 @@ a:hover {
   text-align: left;
   width: 13em;
   float: left;
-  color: #57574D;
+  color: rgb(180, 174, 164);
 }
 a.header:hover {
   text-shadow: none;
@@ -256,7 +258,7 @@ body.blog .menu a.blog,
 body.about .menu a.about,
 body.showcase .menu a.showcase {
   color: inherit;
-  text-shadow: 0 0 25px #6B6B63;
+  text-shadow: 0 0 25px rgb(78, 84, 87);
 }
 
 .content{
@@ -267,7 +269,7 @@ body.showcase .menu a.showcase {
 
 .content img {
   border-radius: 3px;
-  box-shadow: 0 0 25px #6B6B63;
+  box-shadow: 0 0 25px rgb(78, 84, 87);
   float: left;
   margin: 0 2em 1em 0;
 }
