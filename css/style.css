@@ -402,12 +402,15 @@ body.showcase .menu a.showcase {
   body {
     font-size: 90%;
   }
+  .twitter {
+    margin-top: 2em;
+  }
   .wrapper {
     width: 100%;
     padding: 10px 0;
   }
   .content {
-    padding: 0 5px;
+    padding: 0 2em;
   }
   .menu {
     margin-top: 4em;
@@ -422,5 +425,11 @@ body.showcase .menu a.showcase {
   .entries,
   .twitter {
     width: 100%;
+  }
+  .entries > ul > li {
+    margin-top: 1.5em;
+  }
+  .entries > ul > li > a > h3 {
+    margin-bottom: 0.2em;
   }
 }
