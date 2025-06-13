@@ -14,41 +14,41 @@ type: page
       </a>
       <div class="excerpt">
         <span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
-        {{ post.content | strip_html | truncate: 100 }}
+        {{ post.content | strip_html | truncate: 300 }}
       </div>
     </li>
     {% endunless %}
     {% endfor %}
   </ul>
-  <a href="/blog">Archive of all posts &rarr;</a>
-</div>
-
-<div class="twitter">
-  <h2>Latest Tweets</h2>
-  <div>
-    {% include tweets.md %}
-  </div>
+	<a href="/blog"><h3>Archive of all posts &rarr;</h3></a>
 </div>
 
 <div class="about-section">
   <h2 id="about-me">About Me</h2>
 
   <p>
-    <img src="/images/tomisme.jpg" alt="picture &quot;Picture of Tom BH&quot;" title="Tom is me" />
-    Hello, I’m Thomas Buckley-Houston, but you can call me Tom. I am from Bristol, UK, but I’m currently traveling the world.
+    <img src="/images/tomisme.png" alt="picture &quot;Picture of Tom BH&quot;" title="Tom is me" />
+    Hello, I’m Thomas Buckley-Houston, but you can call me Tom. I am from Wales,
+		but I’ve been traveling the world full time since 2015.
   </p>
 
-  <p>I earn a living writing software, you can see the code I’ve written on <a href="http://github.com/tombh">Github</a>.</p>
+  <p>
+	  I earn a living writing software, you can see the code I’ve written on
+		<a href="http://github.com/tombh">Github</a>. You can sponsor my open
+		source work on <a href="https://www.patreon.com/c/tombh">Patreon</a> and
+		<a href="https://github.com/sponsors/tombh">Github</a>.
+	</p>
 
   <p>I have a love of meditation and a degree in Religious Studies. I
   <a href="http://www.tombh.co.uk/ive-written-a-book">wrote a book</a>
   and used to regularly <a href="http://www.beingordinary.org">podcast</a> about spiritual matters.</p>
 
   <p>
-    Email me: <em>tom<span style="display:none">nospam</span>@tombh.co.uk</em>.
-    Or follow me on <a href="http://www.twitter.com/twombh">Twitter</a>,
-    see me livestream on <a href="https://www.twitch.tv/tom__bh">Twitch</a>,
-    and watch my videos on <a href="https://www.youtube.com/user/iamtombh/videos">Youtube</a>.
+    Email me on <em>tom<span style="display:none">nospam</span>@tombh.co.uk</em>.
+    Follow me on <a href="https://mastodon.social/@tombh">Mastodon</a> and
+		<a href="https://bsky.app/profile/tom-bh.bsky.social">Bluesky</a>.
+    Or watch me on <a href="https://www.youtube.com/user/iamtombh/videos">Youtube</a>
+		and livestream on <a href="https://www.twitch.tv/tom__bh">Twitch</a>.
   </p>
 
   <center> ♥ </center>
@@ -56,6 +56,22 @@ type: page
 
 
 <div class="showcase-section">
+	<h3 id="tattoy">Tattoy</h3>
+
+  <p>
+    <a href="https://tattoy.sh">
+      <img src="images/tattoy.webp" alt="Tattoy" />
+    </a>
+  </p>
+
+  <p>
+    A text-based terminal compositor that amongst many other things, can render
+		shaders and a second terminal in the background of your actual terminal.
+    The <a href="https://github.com/tombh/tattoy">source is on Github</a>.
+  </p>
+
+  <div class="showcase-break"></div>
+
   <h3 id="browsh">Browsh</h3>
 
   <p>
@@ -65,7 +81,7 @@ type: page
   </p>
 
   <p>
-    I built a text-based browser for the modern web, it can render everything from CSS3
+    A text-based browser for the modern web, it can render everything from CSS3
     to WebAssembly apps. It's primarily for those that suffer slow and/or expensive Internet.
     It's been on the front page of Hacker News 4 times:
     <a href="https://news.ycombinator.com/item?id=11744221">May 2016</a>,
@@ -131,9 +147,8 @@ type: page
 
   <p>Possibly the most complex software I’ve ever written. This is a <a href="https://heroku.com">Heroku</a>-inspired service that
   allows you to host and scale your own <a href="http://12factor.net">12 Factor Apps</a>. It got on
-  <a href="https://news.ycombinator.com/item?id=7540681">the front page of Hacker News</a>.</p>
-
-  <p><a href="https://github.com/tombh/peas">Source on Github</a></p>
+  <a href="https://news.ycombinator.com/item?id=7540681">the front page of Hacker News</a>.
+	And the <a href="https://github.com/tombh/peas">source is on Github</a>.</p>
 
   <div class="showcase-break"></div>
 
@@ -149,18 +164,6 @@ type: page
 
   <div class="showcase-break"></div>
 
-  <h3 id="the-dharma-api">The Dharma API</h3>
-
-  <p><a href="http://dharma-api.com">
-    <img src="/images/dharma-api.png" alt="Dharma API" />
-  </a></p>
-
-  <p>This is an ambitious project to try and archive all the dharma talks (Buddhist-themed teachings about meditation) on the Internet. There’s about 17 thousand at the moment. It’s written using Ruby’s Sinatra to adhere to traditional REST specifications.</p>
-
-  <p><a href="http://dharma-api.herokuapp.com/">Visit site</a> or <a href="https://github.com/tombh/dharma-api">view source on Github</a>.</p>
-
-  <div class="showcase-break"></div>
-
   <h3 id="wnop-mdash-compiz-enabled-linux">wNOP — Compiz-enabled Linux</h3>
 
   <p><a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">
@@ -169,7 +172,7 @@ type: page
 
   <p>I was, for a while, actively involved in the <a href="http://www.puppylinux.org">Puppy Linux</a> community during which time
   I developed a popular derivative called <a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">wNOP</a> that
-  automatically configured the OpenGL Window Manager, <a href="http://www.youtube.com/watch?v=_ImW0-MgR8I&amp;feature=related">Compiz-Fusion</a>, ‘out-of-the-box’. So I am told, tens of thousands of copies
+  automatically configured the OpenGL Window Manager, <a href="https://www.youtube.com/watch?v=4QokOwvPxrE">Compiz-Fusion</a>, ‘out-of-the-box’. So I am told, tens of thousands of copies
   have been downloaded.</p>
 
 </div>
