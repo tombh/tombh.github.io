@@ -73,7 +73,7 @@ The only notable optimisation I've added is for step 3. Instead of just automati
 
 <img src="images/world_packed.webp#wide" />
 
-The blue squares in this screenshot are the TVS tiles that we've been talking about. They look distorted towards the poles just because of the [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection). There's also [an interactive version you can play with here](https://tombh.co.uk/viewview/tile_packing.html) (click on the tiles to see their details). And [the code is here](https://github.com/tombh/viewview).
+The blue squares in this screenshot are the TVS tiles that we've been talking about. They look distorted towards the poles just because of the [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection). There's also [an interactive version you can play with here](https://alltheviews.world/tile-packing-the-world) (click on the tiles to see their details). And [the code is here](https://github.com/tombh/viewview).
 
 You can see there are quite a lot of overlaps. And even from a cursory amount of clicking on tile details I can see that there are many tiles that are bigger than they need to be. But I think it's good enough for our needs. Nevertheless I'm curious as to what an _optimal_ packing would look like.
 
