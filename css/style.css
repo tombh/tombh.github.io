@@ -111,7 +111,6 @@ ol {
 	margin-bottom: 1em;
 }
 
-
 ol ol {
 	margin-bottom: 0em;
 }
@@ -130,7 +129,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
+	content: "";
 	content: none;
 }
 
@@ -140,16 +139,26 @@ table {
 }
 
 @font-face {
-	font-family: 'Fontin';
+	font-family: "Fontin";
 	font-style: italic;
-	src: url('/fonts/fontin/Fontin-Italic.eot');
-	src: local('Fontin Italic'), local('Fontin-Italic'), url('/fonts/fontin/Fontin-Italic.woff') format('woff'), url('/fonts/fontin/Fontin-Italic.ttf') format('truetype'), url('/fonts/fontin/Fontin-Italic.svg#Fontin-Italic') format('svg');
+	src: url("/fonts/fontin/Fontin-Italic.eot");
+	src:
+		local("Fontin Italic"),
+		local("Fontin-Italic"),
+		url("/fonts/fontin/Fontin-Italic.woff") format("woff"),
+		url("/fonts/fontin/Fontin-Italic.ttf") format("truetype"),
+		url("/fonts/fontin/Fontin-Italic.svg#Fontin-Italic") format("svg");
 }
 
 @font-face {
-	font-family: 'Fontin';
-	src: url('/fonts/fontin/Fontin-Regular.eot');
-	src: local('Fontin Regular'), local('Fontin-Regular'), url('/fonts/fontin/Fontin-Regular.woff') format('woff'), url('/fonts/fontin/Fontin-Regular.ttf') format('truetype'), url('/fonts/fontin/Fontin-Regular.svg#Fontin-Regular') format('svg');
+	font-family: "Fontin";
+	src: url("/fonts/fontin/Fontin-Regular.eot");
+	src:
+		local("Fontin Regular"),
+		local("Fontin-Regular"),
+		url("/fonts/fontin/Fontin-Regular.woff") format("woff"),
+		url("/fonts/fontin/Fontin-Regular.ttf") format("truetype"),
+		url("/fonts/fontin/Fontin-Regular.svg#Fontin-Regular") format("svg");
 }
 
 html {
@@ -159,7 +168,7 @@ html {
 body {
 	text-align: center;
 	color: rgb(180, 174, 164);
-	font-family: 'Fontin', 'Georgia', serif;
+	font-family: "Fontin", "Georgia", serif;
 	font-size: 18px;
 	line-height: 1.5em;
 }
@@ -191,14 +200,13 @@ h2 {
 
 h3 {
 	font-size: 1.3em;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
 	clear: both;
 }
 
 .showcase-section h3 {
 	text-align: right;
 }
-
 
 .blog h2 {
 	margin-top: 1em;
@@ -217,16 +225,19 @@ strong {
 }
 
 blockquote {
-	margin: 2em 4em;
+	margin: 2em 2em 2em 2em;
 	padding-left: 15px;
 	border-left: 7px solid rgb(239, 122, 122);
-	font-style: italic;
 }
 
 sup {
 	position: relative;
 	top: -0.5em;
 	font-size: 80%;
+}
+
+sup:has(a) {
+	top: 0em;
 }
 
 code {
@@ -263,9 +274,8 @@ a {
 }
 
 a:hover {
-	text-shadow: 0 0 25px #6B6B63;
+	text-shadow: 0 0 25px #6b6b63;
 }
-
 
 .header_wrap {
 	margin: auto;
@@ -302,7 +312,7 @@ a.header:hover .heart_logo {
 
 .blog-description {
 	font-size: 77%;
-	color: #868F83;
+	color: #868f83;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	text-align: right;
@@ -322,8 +332,8 @@ a.header:hover .heart_logo {
 }
 
 .menu li {
-	padding: .25em 1em;
-	border-left: 1px solid #EDE6D3;
+	padding: 0.25em 1em;
+	border-left: 1px solid #ede6d3;
 	float: left;
 	height: 1.5em;
 	list-style-type: none;
@@ -350,10 +360,10 @@ a.header:hover .heart_logo {
 
 .menu li img {
 	margin-top: -5px;
-	-webkit-transition: all .1s ease-in-out;
-	-moz-transition: all .1s ease-in-out;
-	-o-transition: all .1s ease-in-out;
-	-ms-transition: all .1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
 }
 
 .menu li img:hover {
@@ -383,12 +393,12 @@ body.showcase .menu a.showcase {
 	margin: 0 2em 1em 0;
 }
 
-.content img[src$='#wide'] {
+.content img[src$="#wide"] {
 	width: 100%;
 }
 
 /* might not work everywhere */
-.content img[src$='#mega'] {
+.content img[src$="#mega"] {
 	width: 200%;
 	margin-left: -50%;
 }
@@ -407,9 +417,10 @@ body.showcase .menu a.showcase {
 
 .post_date {
 	font-style: italic;
-	color: #868F83;
+	color: #868f83;
 	display: block;
 	text-align: right;
+	margin-bottom: 1em;
 }
 
 .entries {
@@ -483,7 +494,6 @@ body.showcase .menu a.showcase {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 867px) {
-
 	.wrapper {
 		width: 480px;
 		padding: 0 30px;
@@ -547,18 +557,28 @@ body.showcase .menu a.showcase {
 		width: 100%;
 	}
 
-	.entries>ul>li {
+	.entries > ul > li {
 		margin-top: 1.5em;
 	}
 
-	.entries>ul>li>a>h3 {
+	.entries > ul > li > a > h3 {
 		margin-bottom: 0.2em;
 	}
 }
 
+/* Old approach */
 .footnote {
 	font-size: 0.7em;
 	line-height: 1;
 	margin-left: 0.1em;
 	vertical-align: super;
+}
+
+/* New approach (October 2026) */
+sup .footnote {
+	font-size: 1em;
+}
+
+.footnotes p {
+	margin-bottom: 0em;
 }
