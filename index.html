@@ -4,175 +4,225 @@ type: page
 ---
 
 <div class="entries">
-  <h2>Latest Posts</h2>
-  <ul>
-    {% for post in site.posts limit: 3 %}
-    {% unless post.exclude_from_index %}
-    <li>
-      <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-      </a>
-      <div class="excerpt">
-        <span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
-        {{ post.content | strip_html | truncate: 300 }}
-      </div>
-    </li>
-    {% endunless %}
-    {% endfor %}
-  </ul>
+	<h2>Latest Posts</h2>
+	<ul>
+		{% for post in site.posts limit: 3 %} {% unless post.exclude_from_index %}
+		<li>
+			<div class="title-and-date">
+				<a href="{{ post.url }}">
+					<h3>{{ post.title }}</h3>
+				</a>
+				<span class="post_date">{{ post.date | date_to_long_string: "ordinal" }}</span>
+			</div>
+			<div class="excerpt">
+				{{ post.content | strip_html | truncate: 300 }}
+			</div>
+		</li>
+		{% endunless %} {% endfor %}
+	</ul>
 	<a href="/blog"><h3>Archive of all posts &rarr;</h3></a>
 </div>
 
 <div class="about-section">
-  <h2 id="about-me">About Me</h2>
+	<h2 id="about-me">About Me</h2>
 
-  <p>
-    <img src="/images/tomisme.png" alt="picture &quot;Picture of Tom BH&quot;" title="Tom is me" />
-    Hello, I’m Thomas Buckley-Houston, but you can call me Tom. I am from Wales,
-		but I’ve been traveling the world full time since 2015.
-  </p>
+	<p>
+		<img src="/images/tomisme.png" alt='picture "Picture of Tom BH"' title="Tom is me">
+		Hello, I’m Thomas Buckley-Houston, but you can call me Tom. I am from Wales, but I’ve been
+		traveling the world full time since 2015.
+	</p>
 
-  <p>
-	  I earn a living writing software, you can see the code I’ve written on
-		<a href="http://github.com/tombh">Github</a>. You can sponsor my open
-		source work on <a href="https://www.patreon.com/c/tombh">Patreon</a> and
+	<p>
+		I earn a living writing software, you can see the code I’ve written on
+		<a href="http://github.com/tombh">Github</a>. You can sponsor my open source work on
+		<a href="https://www.patreon.com/c/tombh">Patreon</a>
+		and
 		<a href="https://github.com/sponsors/tombh">Github</a>.
 	</p>
 
-  <p>I have a love of meditation and a degree in Religious Studies. I
-  <a href="http://www.tombh.co.uk/ive-written-a-book">wrote a book</a>
-  and used to regularly <a href="http://www.beingordinary.org">podcast</a> about spiritual matters.</p>
+	<p>
+		I have a love of <a href="/blog/#spirituality">meditation</a>
+		and a degree in Religious Studies. I
+		<a href="http://www.tombh.co.uk/ive-written-a-book">wrote a book</a>
+		and used to regularly <a href="http://www.beingordinary.org">podcast</a>
+		about spiritual
+		matters.
+	</p>
 
-  <p>
-    Email me on <em>tom<span style="display:none">nospam</span>@tombh.co.uk</em>.
-    Follow me on <a href="https://mastodon.social/@tombh">Mastodon</a> and
-		<a href="https://bsky.app/profile/tom-bh.bsky.social">Bluesky</a>.
-    Or watch me on <a href="https://www.youtube.com/user/iamtombh/videos">Youtube</a>
-		and livestream on <a href="https://www.twitch.tv/tom__bh">Twitch</a>.
-  </p>
+	<p>
+		Email me on <em>tom<span style="display: none">nospam</span>@tombh.co.uk</em>. Follow me on
+		<a href="https://mastodon.social/@tombh">Mastodon</a>
+		and
+		<a href="https://bsky.app/profile/tom-bh.bsky.social">Bluesky</a>. Or watch me on
+		<a href="https://www.youtube.com/user/iamtombh/videos">Youtube</a>
+		and livestream on
+		<a href="https://www.twitch.tv/tom__bh">Twitch</a>.
+	</p>
 
-  <center> ♥ </center>
+	<center>♥</center>
 </div>
 
-
 <div class="showcase-section">
+	<h3 id="tattoy">The Longest Line Of Sight</h3>
+
+	<p>
+		<a href="https://alltheviews.world/">
+			<img src="https://alltheviews.world/longest_line_1.webp" alt="The longest line of sight">
+		</a>
+	</p>
+
+	<p>
+		With the help of my good friend <a href="https://ryan.berge.rs/">Ryan Berger</a>, we calculated around 5 billion lines
+		of sight in order to find the place on Earth from which you can see the furthest.
+		Visit the <a href="https://alltheviews.world/">website</a>,
+		read the <a href="https://alltheviews.world/news/hello-world/">launch-day commentary</a>
+		and
+		<a href="https://github.com/AllTheLines">source on Github</a>.
+	</p>
+
+	<div class="showcase-break"></div>
+
 	<h3 id="tattoy">Tattoy</h3>
 
-  <p>
-    <a href="https://tattoy.sh">
-      <img src="images/tattoy.webp" alt="Tattoy" />
-    </a>
-  </p>
+	<p>
+		<a href="https://tattoy.sh">
+			<img src="images/tattoy.webp" alt="Tattoy">
+		</a>
+	</p>
 
-  <p>
-    A text-based terminal compositor that amongst many other things, can render
-		shaders and a second terminal in the background of your actual terminal.
-    The <a href="https://github.com/tombh/tattoy">source is on Github</a>.
-  </p>
+	<p>
+		A text-based terminal compositor that amongst many other things, can render shaders and a second
+		terminal in the background of your actual terminal. Visit the <a href="https://tattoy.sh/">website</a>
+		and
+		<a href="https://github.com/tombh/tattoy">source on Github</a>.
+	</p>
 
-  <div class="showcase-break"></div>
+	<div class="showcase-break"></div>
 
-  <h3 id="browsh">Browsh</h3>
+	<h3 id="browsh">Browsh</h3>
 
-  <p>
-    <a href="https://github.com/browsh-org/browsh">
-      <img src="https://www.brow.sh/assets/images/browsh-tty.jpg" alt="Browsh" />
-    </a>
-  </p>
+	<p>
+		<a href="https://github.com/browsh-org/browsh">
+			<img src="https://www.brow.sh/assets/images/browsh-tty.jpg" alt="Browsh">
+		</a>
+	</p>
 
-  <p>
-    A text-based browser for the modern web, it can render everything from CSS3
-    to WebAssembly apps. It's primarily for those that suffer slow and/or expensive Internet.
-    It's been on the front page of Hacker News 4 times:
-    <a href="https://news.ycombinator.com/item?id=11744221">May 2016</a>,
-    <a href="https://news.ycombinator.com/item?id=16074096">Jan 2018</a>,
-    <a href="https://news.ycombinator.com/item?id=17487552">July 2018</a> and
-    <a href="https://news.ycombinator.com/item?id=31489937">May 2022</a>.
-    The <a href="https://github.com/browsh-org/browsh">source is on Github</a>.
-  </p>
+	<p>
+		A text-based browser for the modern web, it can render everything from CSS3 to WebAssembly apps.
+		It's primarily for those that suffer slow and/or expensive Internet. It's been on the front page
+		of Hacker News 4 times:
+		<a href="https://news.ycombinator.com/item?id=11744221">May 2016</a>,
+		<a href="https://news.ycombinator.com/item?id=16074096">Jan 2018</a>,
+		<a href="https://news.ycombinator.com/item?id=17487552">July 2018</a>
+		and
+		<a href="https://news.ycombinator.com/item?id=31489937">May 2022</a>. The
+		<a href="https://github.com/browsh-org/browsh">source is on Github</a>.
+	</p>
 
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="sponge-relay">The Sponge Relay</h3>
 
-  <h3 id="sponge-relay">The Sponge Relay</h3>
+	<p>
+		<a href="http://tombh.co.uk/the-sponge-relay">
+			<img src="/images/sponge-relay.jpg" alt="The Sponge Relay">
+		</a>
+	</p>
 
-  <p>
-    <a href="http://tombh.co.uk/the-sponge-relay">
-      <img src="/images/sponge-relay.jpg" alt="The Sponge Relay" />
-    </a>
-  </p>
+	<p>
+		When I started travelling in 2015, I took a sponge from my apartment. I then exchanged that
+		sponge with the host of my next destination. I've repeated this seemingly odd ritual in almost
+		every country I've since visited.
+		<a href="http://tombh.co.uk/the-sponge-relay">See the latest archive of all the exchanges.</a>
+	</p>
 
-  <p>
-    When I started travelling in 2015, I took a sponge from my apartment. I then exchanged that
-    sponge with the host of my next destination. I've repeated this seemingly odd ritual in almost
-    every country I've since visited.
-    <a href="http://tombh.co.uk/the-sponge-relay">See the latest archive of all the exchanges.</a>
-  </p>
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="tftd">BBC Radio Bristol</h3>
 
-  <h3 id="tftd">BBC Radio Bristol</h3>
+	<p>
+		<a href="http://tombh.co.uk/blog#tftd">
+			<img src="/images/radio_bristol.jpg" alt="BBC Radio Bristol">
+		</a>
+	</p>
 
-  <p>
-    <a href="http://tombh.co.uk/blog#tftd">
-      <img src="/images/radio_bristol.jpg" alt="BBC Radio Bristol" />
-    </a>
-  </p>
+	<p>
+		From 2013 to 2015 I was a regular contributor to BBC Radio Bristol's Thought For The Day. They
+		wanted me to be their Buddhist voice, but I'm not strictly a Buddhist, so we agreed that I'd be
+		their "Buddhist Meditator and Psychotherapist". I posted the texts of each one, which you can
+		<a href="http://tombh.co.uk/blog#tftd">read here</a>.
+	</p>
 
-  <p>
-    From 2013 to 2015 I was a regular contributor to BBC Radio Bristol's Thought For The Day.
-    They wanted me to be their Buddhist voice, but I'm not strictly a Buddhist, so we agreed that
-    I'd be their "Buddhist Meditator and Psychotherapist". I posted the texts of each one, which
-    you can <a href="http://tombh.co.uk/blog#tftd">read here</a>.
-  </p>
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="walking-wales">Walking Wales</h3>
 
-  <h3 id="walking-wales">Walking Wales</h3>
+	<p>
+		<a href="https://www.youtube.com/watch?v=6uQ0RfoOVC4">
+			<img src="/images/walking_wales.jpg" alt="Walking Wales">
+		</a>
+	</p>
 
-  <p><a href="https://www.youtube.com/watch?v=6uQ0RfoOVC4">
-    <img src="/images/walking_wales.jpg" alt="Walking Wales" />
-  </a></p>
+	<p>
+		In the Autumn of 2014 I walked solo 270km from North Wales to my flat in Bristol. Somewhat of a
+		pilgrimage I managed to document the adventure on video, which
+		<a href="https://www.youtube.com/watch?v=6uQ0RfoOVC4">you can now watch on Youtube</a>.
+	</p>
 
-  <p>In the Autumn of 2014 I walked solo 270km from North Wales to my flat in Bristol. Somewhat of a pilgrimage I managed to
-  document the adventure on video, which <a href="https://www.youtube.com/watch?v=6uQ0RfoOVC4">you can now watch on Youtube</a>.</p>
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="peas-platform-as-a-service">Peas: Platform as a Service</h3>
 
-  <h3 id="peas-platform-as-a-service">Peas: Platform as a Service</h3>
+	<p>
+		<a href="https://github.com/tombh/peas">
+			<img src="/images/peas.jpg" alt="Peas">
+		</a>
+	</p>
 
-  <p><a href="https://github.com/tombh/peas">
-    <img src="/images/peas.jpg" alt="Peas" />
-  </a></p>
+	<p>
+		Possibly the most complex software I’ve ever written. This is a
+		<a href="https://heroku.com">Heroku</a>-inspired service that allows you to host and scale your
+		own <a href="http://12factor.net">12 Factor Apps</a>. It got on
+		<a href="https://news.ycombinator.com/item?id=7540681">the front page of Hacker News</a>. And
+		the <a href="https://github.com/tombh/peas">source is on Github</a>.
+	</p>
 
-  <p>Possibly the most complex software I’ve ever written. This is a <a href="https://heroku.com">Heroku</a>-inspired service that
-  allows you to host and scale your own <a href="http://12factor.net">12 Factor Apps</a>. It got on
-  <a href="https://news.ycombinator.com/item?id=7540681">the front page of Hacker News</a>.
-	And the <a href="https://github.com/tombh/peas">source is on Github</a>.</p>
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="tedx-talk">TEDx Talk</h3>
 
-  <h3 id="tedx-talk">TEDx Talk</h3>
+	<p>
+		<a href="https://www.youtube.com/watch?v=FmpX1jkLrSY">
+			<img src="/images/youtube_bread_cat.jpg" alt="Dharma API">
+		</a>
+	</p>
 
-  <p><a href="https://www.youtube.com/watch?v=FmpX1jkLrSY">
-    <img src="/images/youtube_bread_cat.jpg" alt="Dharma API" />
-  </a></p>
+	<p>
+		I gave a short talk at TEDx Bath about vulnerability. It used pictures of cats with their heads
+		sticking through pieces of bread, people laughed.
+	</p>
 
-  <p>I gave a short talk at TEDx Bath about vulnerability. It used pictures of cats with their heads sticking through pieces of bread, people laughed.</p>
+	<p><a href="https://www.youtube.com/watch?v=FmpX1jkLrSY">You can watch it on Youtube</a>.</p>
 
-  <p><a href="https://www.youtube.com/watch?v=FmpX1jkLrSY">You can watch it on Youtube</a>.</p>
+	<div class="showcase-break"></div>
 
-  <div class="showcase-break"></div>
+	<h3 id="wnop-mdash-compiz-enabled-linux">wNOP — Compiz-enabled Linux</h3>
 
-  <h3 id="wnop-mdash-compiz-enabled-linux">wNOP — Compiz-enabled Linux</h3>
+	<p>
+		<a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">
+			<img src="/images/compiz_small.jpg" alt="wNOP - Compiz Linux">
+		</a>
+	</p>
 
-  <p><a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">
-    <img src="/images/compiz_small.jpg" alt="wNOP - Compiz Linux" />
-  </a></p>
-
-  <p>I was, for a while, actively involved in the <a href="http://www.puppylinux.org">Puppy Linux</a> community during which time
-  I developed a popular derivative called <a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">wNOP</a> that
-  automatically configured the OpenGL Window Manager, <a href="https://www.youtube.com/watch?v=4QokOwvPxrE">Compiz-Fusion</a>, ‘out-of-the-box’. So I am told, tens of thousands of copies
-  have been downloaded.</p>
-
+	<p>
+		I was, for a while, actively involved in the
+		<a href="http://www.puppylinux.org">Puppy Linux</a>
+		community during which time I developed a
+		popular derivative called
+		<a href="http://www.murga-linux.com/puppy/viewtopic.php?t=24871">wNOP</a>
+		that automatically
+		configured the OpenGL Window Manager,
+		<a href="https://www.youtube.com/watch?v=4QokOwvPxrE">Compiz-Fusion</a>, ‘out-of-the-box’. So I
+		am told, tens of thousands of copies have been downloaded.
+	</p>
 </div>

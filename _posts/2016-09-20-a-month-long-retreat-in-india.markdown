@@ -4,7 +4,7 @@ layout: post
 slug: a-month-long-retreat-in-india
 title: A Month-Long Retreat In India
 categories:
-- Spiritual
+- Spirituality
 - Around The World
 ---
 

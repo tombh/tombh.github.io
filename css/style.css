@@ -415,12 +415,28 @@ body.showcase .menu a.showcase {
 	clear: both;
 }
 
+.title-and-date {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
 .post_date {
 	font-style: italic;
 	color: #868f83;
-	display: block;
 	text-align: right;
-	margin-bottom: 1em;
+	width: 25%;
+}
+
+.blog .post_date {
+	display: block;
+	width: 100%;
+}
+
+.all-posts .post_date {
+	width: 25%;
 }
 
 .entries {

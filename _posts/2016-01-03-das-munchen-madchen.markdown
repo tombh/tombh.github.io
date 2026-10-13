@@ -5,7 +5,7 @@ slug: das-munchen-madchen
 title: Das München Mädchen
 categories:
 - Around The World
-- Spiritual
+- Spirituality
 ---
 
 For the last five or so years I've taken the Christmas and New Year holidays for retreat. Which means, no

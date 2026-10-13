@@ -5,6 +5,7 @@ slug: religious-studies-in-software-engineering
 title: Religious Studies In Software Engineering
 categories:
   - Musings
+  - Computing
 ---
 
 I graduated from Lampeter University, Wales in 2006, with a 2:1 in Religious Studies. Whilst I've earnt all my money since then from the seemingly unrelated world of software, my degree has been invaluable. Programming isn't just something we do to computers, it's something we do to humans and society as well. Ideologies, politics and religions can be thought of as a set of steps that, if followed, lead to a desirable outcome.

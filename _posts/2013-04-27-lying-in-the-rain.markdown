@@ -4,7 +4,7 @@ layout: post
 slug: lying-in-the-rain
 title: Lying In The Rain
 categories:
-- Spiritual
+- Spirituality
 ---
 
 It's the day after a week-long meditation retreat. I'm still trying to digest the experience &mdash; mostly, by slouching on the sofa catching up on what I missed from last week's episode of the Internet, which so far I've gathered is; [Drunken Dubstep Surprise ](http://www.youtube.com/watch?feature=player_embedded&v=sRFSmqcllQE) and [The Ultimate Filing System](http://www.youtube.com/watch?v=iimzzlxzCFE). I was too tired to go outside into the sun and go for a run so, like getting into a cold shower, I forced my running gear onto my body and kicked myself out of the flat. It was horrible for the first ten minutes, but then I found a little more energy than usual and ended up running fast and twice my normal distance. It was the first time in a long time that I was nearly sick when I finished. I collapsed to the ground with an awful but brief moment of retching, then I lay on my back and it started to heavily shower. It felt incredible. My body was glowing and the uninhibited intimacy with nature's perfectly timed, cooling downpour was like a bespoke gift from the gods.

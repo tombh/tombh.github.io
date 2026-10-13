@@ -23,11 +23,13 @@ title: Blog
 <ul class="archives">
   {% for post in site.posts %}
     <li class="all-posts {% for category in post.categories %} {{ category | slugify }} {% endfor %}">
-      <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-      </a>
+      <div class="title-and-date">
+          <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <span class="post_date">{{ post.date | date_to_long_string: "ordinal" }}</span>
+      </div>
       <div class="excerpt">
-    <span class="post_date">{{ post.date | date: "%d %B %Y" }}</span>
         {{ post.content | strip_html | truncatewords: 50 }}
       </div>
     </li>
