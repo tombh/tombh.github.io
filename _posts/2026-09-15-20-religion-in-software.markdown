@@ -1,5 +1,5 @@
 ---
-date: 1026-09-15
+date: 2026-10-13
 layout: post
 slug: religious-studies-in-software-engineering
 title: Religious Studies In Software Engineering
@@ -7,7 +7,9 @@ categories:
   - Musings
 ---
 
-I graduated from Lampeter University, Wales in 2006, with a 2:1 in Religious Studies. Whilst I've earnt all my money since then from the seemingly unrelated world of software, my degree has been invaluable. One of the many academic definitions for religion is, "the state of being ultimately concerned"[^tillich]. Ultimate concern can be seen in those great questions of life; what is existence, what happens when we die, what is our purpose, what does it mean to be good, why do we suffer? Although Religious Studies explicitly doesn't offer any answers to these questions, it is a discipline that is ultimately concerned with taking _those that ask these questions_ seriously.
+I graduated from Lampeter University, Wales in 2006, with a 2:1 in Religious Studies. Whilst I've earnt all my money since then from the seemingly unrelated world of software, my degree has been invaluable. Programming isn't just something we do to computers, it's something we do to humans and society as well. Ideologies, politics and religions can be thought of as a set of steps that, if followed, lead to a desirable outcome.
+
+Religion is a deep and diverse subject: I studied everything from [agnostic faith](https://tricycle.org/magazine/buddhism-without-beliefs/), to [hallucinogenics](https://en.wikipedia.org/wiki/Ayahuasca) and [Japanese traffic cone worship](https://allabout-japan.com/en/article/3139/). Although there is no one accepted academic definition of religion, I think a useful one to bear in mind for this essay is, "the state of being ultimately concerned"[^tillich]. Ultimate concern can be seen in those great questions of life; what is existence, what happens when we die, what is our purpose, what does it mean to be good, why do we suffer? Although Religious Studies explicitly doesn't offer any answers to these questions, it is a discipline that is ultimately concerned with taking _those that ask these questions_ seriously.
 
 Since 2015 I've been continuously travelling the world. Not having a fixed home has meant that I've slowly but surely reduced my possessions to a bare minimum. My entire worldly belongings fit in this 30 litre daypack:
 
@@ -33,9 +35,9 @@ One of the fathers of Religious Studies, Ninian Smart, had this to say about the
 
 > The fabled Martian arriving on the planet and inspecting among other things our intellectual resources might also be struck by a strange thing. Journals he would note, devoted to the philosophy of religion. The more advanced essays therein might discuss the question of truth as between religions. But over Cambodia he would not look down to perceive Christians struggling spiritually with Buddhists: he would find Marxist rural anarchosyndicalism destroying temples and monks. In Tibet he would see the clash of ancient religion and Maoism. In Romania he would note subversive Baptists. In Sweden he would see Christianity softly overwhelmed by social democracy. In brief, he would think that as far as rivalry goes [...] religions and ideologies were tugging against each other, and that really from a practical point of view it was odd that such a struggle was rarely depicted in the journals of the philosophers of religion. [...]
 >
-> He might be further puzzled at how blithely men could come to put religion in a sort of ghetto, considering so many professed not to be able clearly to define it.
+> He might be further puzzled at how blithely men could come to put religion in a sort of ghetto, considering so many professed not to be able to clearly define it.
 
-To a Martian there is no significant difference between religion and ideology. What's paramount and starkly obvious is that, whatever its name, it's one of the defining aspects of earthly life.
+To a Martian there is no significant difference between religion and ideology. What's paramount and starkly obvious is that, whatever its name, and however it's defined, it's one of the defining aspects of the earthly life to which we all belong.
 
 ## Earthly Life
 
@@ -127,7 +129,7 @@ The computer scientist Melvin E. Conway, wrote in his 1967 paper, _How Do Commit
 
 Within the field of Software Engineering this has come to be known as Conway's Law. If true software resides in the minds of programmers, and those programmers must communicate amongst themselves in order to create coherent program text, then program text will inevitably reflect the structure of the communication. A classic online example of this is the common asymmetry between the ease of subscribing to a service and the difficulty of unsubscribing. Think of those bright and obvious sign up boxes, perhaps with a supposedly limited time offer. And then think of canceling that same subscription, which is so often a dreary chore of patiently peering through reams of obscure menu items. We don't even need to posit malicious intent here: an organisation will naturally prioritise internal technical communications about increasing revenue, therefore the implementation of features contributing to that goal will be better developed than those that contribute to losing revenue.
 
-But ultimately Conway's Law has far greater repercussions: it is essentially a formulation of McLuhan's, "The medium is the message". Namely that the structures through which we communicate are more pertinent than any specific message, or in our current case, any specific program text. This doesn't just have negative implications though. In Eric S. Raymond's 1999 book, _The Cathedral and the Bazaar_[^raymond], he contrasts two notable approaches to creating and maintaining software. The first can be understood through the metaphor of a cathedral: there is a clear plan from an overseeing body that delegates specific tasks to managers and teams. I think this is how we most often imagine the endeavour of software engineering, that it is so esoteric and complex that it somehow becomes monumental. However, the metaphor of the bazaar articulates something quite distinct: an ad hoc, seemingly random arrangement of diverse buyers, sellers, locals and foreigners, exchanging whatever goods and consumables happen to be available on the day. It may be surprising that any software of note could ever be made like this, but in actual fact it is not only foundational to the modern software landscape, it is responsible for perhaps the most successful piece of software yet created: Linux.
+But ultimately Conway's Law has far greater repercussions: it is essentially a formulation of McLuhan's, "The medium is the message". Namely that the structures through which we communicate are more pertinent than any specific message, or in our current case, any specific program text. This doesn't just have negative implications though. In Eric S. Raymond's 1999 book, _The Cathedral and the Bazaar_[^raymond], he contrasts two opposing approaches to creating and maintaining software. The first can be understood through the metaphor of a cathedral: there is a clear plan from an overseeing body that delegates specific tasks to managers and teams. I think this is how we most often imagine the endeavour of software engineering, that it is so esoteric and complex that it somehow becomes monumental. However, the metaphor of the bazaar articulates something quite distinct: an ad hoc, seemingly random arrangement of diverse buyers, sellers, locals and foreigners, exchanging whatever goods and consumables happen to be available on the day. It may be surprising that any software of note could ever be made like this, but in actual fact it is not only foundational to the modern software landscape, it is responsible for perhaps the most successful piece of software yet created: Linux.
 
 Linux is a general purpose Operating System (OS) like Microsoft Windows or macOS. It began in 1991 as the personal project of the Finnish Computer Science student Linus Torvalds. He publicly released the program text, which is more commonly known as, the source code, and welcomed contributions to it from everybody. It was not his explicit intention to model development in the form of Raymond's bazaar, but nevertheless Linux has since enjoyed an ever growing international community of passionate and voluntary contributors. It is used in many contexts, most notably on Android phones, of which [there are nearly 4 billion](https://www.demandsage.com/android-statistics/). Due to its liberal public licensing it can be legally copied, or colloquially, "forked". Here is a family tree of some popular Linux forks:
 
@@ -158,7 +160,7 @@ I hope that, even as I confess to exaggerating for dramatic effect, your eyebrow
 
 Up until 2018, Google's official motto was "Don't be evil". Of course now that the motto has been removed doesn't therefore make them evil, but it does highlight knowledge of a common narrative in Big Tech. To intend not to be evil implies that being evil is a common trait of those with great power. It should go without saying that [Google is constantly under judgement from the highest courts of the world](https://en.wikipedia.org/wiki/Criticism_of_Google). It's just par for the Big Tech course; not paying taxes, monopolisation, political polarisation, promotion of disinformation, exploiting addictive behaviours, copyright infringements, and so on[^google]. But of course, as is common when such immense powers are involved, Big Tech's legal repercussions look suspiciously like rulings of ecclesiastical courts giving special treatment to the faithful.
 
-It is even argued by some that Big Tech can be associated with its own unique "secular religion", TESCREAL[^tescreal]. The name is an acronym coined by computer scientist Timnit Gebru and philosopher Émile P. Torres, that refers to the "interconnected and overlapping" ideologies of; Transhumanism, Extropianism, Singularitarianism, Cosmism, Rationalism, Effective Altruism, and Longtermism. To quote Torres[^torres]:
+It is even argued by some, that Big Tech can be associated with its own unique "secular religion", TESCREAL[^tescreal]. The name is an acronym coined by computer scientist Timnit Gebru and philosopher Émile P. Torres, that refers to the "interconnected and overlapping" ideologies of; Transhumanism, Extropianism, Singularitarianism, Cosmism, Rationalism, Effective Altruism, and Longtermism. To quote Torres[^torres]:
 
 > At the heart of TESCREALism is a “techno-utopian” vision of the future. It anticipates a time when advanced technologies enable humanity to accomplish things like: producing radical abundance, reengineering ourselves, becoming immortal, colonizing the universe and creating a sprawling “post-human” civilization among the stars full of trillions and trillions of people. The most straightforward way to realize this utopia is by building superintelligent AGI [Artificial General Intelligence].
 
@@ -174,19 +176,23 @@ What is important to understand is that a software engineer never _just_ writes 
 
 A program isn't just for computers.
 
-It's politics: a set of rules and aspirations that direct the running of a country. It's religion; a set of beliefs and practices for leading a fulfilling life. It's software engineering itself: the theory and discipline of effectively using computers. Programs in and of themselves are not problematic _per se_. They only become an issue when, as Naur argues, we elevate the program text above the living theory held by the programmers. He said this about how programs die:
+It can also be for politics: a set of rules and aspirations that direct the running of a country. Or for religion: a set of beliefs and practices for leading a fulfilling life. Even for software engineering itself: the theory and discipline of effectively using computers. Programs in and of themselves are not problematic _per se_. They only become an issue when, as Naur argues, we elevate the program text above the living theory held by the programmers. The presence of program text does not imply the presence of a functional program, quoting Naur again:
 
 > The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The actual state of death becomes visible when demands for modifications of the program cannot be intelligently
 answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 
-_To drink the Kool-Aid_ is a term in common parlance we use to describe the blind acceptance of a possibly problematic belief. It originates from the tragic deaths of over 900 members of the People's Temple movement in 1978. Cyanide laced Kool-Aid was drunk both voluntarily and by coercion as a form of "revolutionary suicide"[^peoples-temple]. Nowadays we don't associate literal death with the term, but we do assume a worrying absence of critical thinking. We can lose friends, family and colleagues to the Kool-Aid, not mortally but emotionally and cognitively. Religion, Big Tech, money, OSS sectarianism: the bazaar of potential Kool-Aids is bustling.
+In politics, "demands for modifications", could be, for example, the act of voting. In religion and ideology though, it doesn't necessarily have to be the dramatic process of sect formation, it can simply be the way in which a worldview responds to unique circumstances. I find this often happens to me when I visit new countries. For example, as a European I'm used to waiting for traffic lights to signal when it's safe to cross the road. But in South Asia I have to modify my habits by assertively yet carefully making a path across the road myself.
 
-Responses to questions of ultimate concern don't come easily. But I am a follower of Naur: by not drinking Kool-Aid, I keep the questions alive. I can only respond to demands for modifications to a program, be it computational or ideological, if I sincerely engage with my own theories about the problems being presented. Every character I type, whether it's prosaic or programmatic, is an opportunity to reflect, to build new theory:
+There is no one program text that fits all possible situations.
+
+_To drink the Kool-Aid_ is a term in common parlance we use to describe the blind acceptance of a possibly problematic belief. It originates from the tragic deaths of over 900 members of the People's Temple movement in 1978. Cyanide laced Kool-Aid was drunk both voluntarily and by coercion as a form of "revolutionary suicide"[^peoples-temple]. Nowadays we don't associate literal death with the term, but we do assume a worrying absence of critical thinking. We can lose friends, family and colleagues to metaphorical Kool-Aid, not mortally but emotionally and cognitively. Religion, Big Tech, money, OSS sectarianism: the bazaar of potential Kool-Aids is bustling.
+
+Dissolving a programming team doesn't just happen when a software company goes bankrupt, or the last member of a religion passes away. It also happens when the humans involved succumb to Kool-Aid, when they can no longer intelligently answer for their theories and beliefs. Demands for modifications will never end, they are part and parcel of engaging with the living world, whether you're a software engineer, a voter, or a pedestrian. Every word we utter and every character we type, whether it's prosaic or programmatic, is an opportunity to reflect, to build new theory:
 
 A special transmission outside the program text,  
 Not depending on words and letters;  
 Directly pointing to the mind  
-Seeing into the problem’s true nature and realising Naur-hood.
+Seeing into the problem’s true nature and releasing a new version.
 
 <center>🙇</center>
 
@@ -202,7 +208,7 @@ Seeing into the problem’s true nature and realising Naur-hood.
 [^naur]: [pablorauzy.fr/dev/naur1985programming.pdf](https://pablorauzy.fr/dev/naur1985programming.pdf)
 [^conway]: [www.melconway.com/Home/pdf/committees.pdf](https://www.melconway.com/Home/pdf/committees.pdf)
 [^raymond]: Eric S. Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, 1999.
-[^fitzegelard]: Robert Fitzegelard's translation of _The Odyssey_
+[^fitzegelard]: This is the opening line to Robert Fitzegelard's translation of Homer's, _The Odyssey_, 1961.
 [^google]: [en.wikipedia.org/wiki/Criticism_of_Google](https://en.wikipedia.org/wiki/Criticism_of_Google)
 [^stallman]: [en.wikipedia.org/wiki/Copyleft](https://en.wikipedia.org/wiki/Copyleft)
 [^peoples-temple]: [en.wikipedia.org/wiki/Drinking_the_Kool-Aid](https://en.wikipedia.org/wiki/Drinking_the_Kool-Aid)
