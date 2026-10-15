@@ -138,6 +138,10 @@ table {
 	border-spacing: 0;
 }
 
+small {
+	font-size: 0.75em;
+}
+
 @font-face {
 	font-family: "Fontin";
 	font-style: italic;
