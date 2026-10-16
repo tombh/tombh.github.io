@@ -1,25 +1,32 @@
-safe:        false
-host:        0.0.0.0
-port:        4000
-baseurl:     /
-url: http://0.0.0.0:4000
+safe: false
+host: 0.0.0.0
+port: 4000
+baseurl: /
+url: https://tombh.co.uk
 
-source:      .
+source: .
 destination: ./_site
 plugins_dir: ./_plugins
 
-future:      true
-lsi:         false
+collections:
+  following:
+    output: true
+
+future: true
+lsi: false
 highlighter: rouge
-markdown:    kramdown
-permalink:   /:title
+markdown: kramdown
+permalink: /:title
+
+plugins:
+  - jekyll-feed
 
 maruku:
-  use_tex:    false
-  use_divs:   false
+  use_tex: false
+  use_divs: false
   png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+  png_dir: images/latex
+  png_url: /images/latex
 
 rdiscount:
   extensions: []

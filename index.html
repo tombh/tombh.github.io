@@ -4,7 +4,7 @@ type: page
 ---
 
 <div class="entries">
-	<h2>Latest Posts</h2>
+	<h2>Latest Posts | <a href="/feed.xml">RSS</a></h2>
 	<ul>
 		{% for post in site.posts limit: 3 %} {% unless post.exclude_from_index %}
 		<li>
